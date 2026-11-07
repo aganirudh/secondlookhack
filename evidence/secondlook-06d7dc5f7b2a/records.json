@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Controlled lab incident",
+    "id": "secondlook-06d7dc5f7b2a-regression",
+    "phase": "regression",
+    "scenario": "checkout-postgres-worker-pool-v1",
+    "commit": "efbc462786dfe75d6934dce0a14ef7f9b962a41f",
+    "config": {
+      "postgres_max_connections": 20,
+      "postgres_superuser_reserved": 3,
+      "checkout_connections": 3,
+      "headroom": 3,
+      "worker_replicas": 3,
+      "worker_pool_max": 3
+    },
+    "config_sha256": "f65908ebc56da6ea91dc25ab1cb345e49d85f3b0378a3cd12d87c4d3d376df15",
+    "started_at": "2026-11-07T10:47:01.414+00:00",
+    "first_sample_at": "2026-11-07T10:47:50.485+00:00",
+    "last_sample_at": "2026-11-07T10:48:23.164+00:00",
+    "journal_sha256": "81859e5f4553e544a3da42cc2b2781ec4fd8f78d2e7401c72e2b283b423a75ce",
+    "samples": 12,
+    "probe_failures": 0,
+    "observed_worker": 9,
+    "observed_total": 10,
+    "worker_upper_bound": 9
+  }
+]

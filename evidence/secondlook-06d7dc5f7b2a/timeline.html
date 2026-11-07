@@ -1,0 +1,8 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><title>Controlled lab incident</title><style>body{font:16px system-ui;max-width:780px;margin:3rem auto;padding:0 1rem}section{padding:1rem 0;border-bottom:1px solid #bbb}pre{overflow:auto}</style><h1>Controlled lab incident</h1><p><a href='events.jsonl'>Raw events</a> · <a href='compose.log'>Compose and PostgreSQL output</a></p><section><h2>Regression</h2><p>2026-11-07T10:47:50.485+00:00 to 2026-11-07T10:48:23.164+00:00 UTC</p><p>0 checkout failures across 12 probes. PostgreSQL observed 9 worker connections and 10 total client connections, including the observer. The configured worker upper bound was 9.</p><details><summary>Effective configuration</summary><pre>{
+  &quot;postgres_max_connections&quot;: 20,
+  &quot;postgres_superuser_reserved&quot;: 3,
+  &quot;checkout_connections&quot;: 3,
+  &quot;headroom&quot;: 3,
+  &quot;worker_replicas&quot;: 3,
+  &quot;worker_pool_max&quot;: 3
+}</pre></details></section>

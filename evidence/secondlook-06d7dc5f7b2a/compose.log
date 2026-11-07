@@ -1,0 +1,331 @@
+
+2026-11-07T10:47:16.041+00:00 ('up', '-d', '--wait', '--wait-timeout', '90', 'db') (exit 0)
+ Network secondlook-06d7dc5f7b2a_default Creating 
+ Network secondlook-06d7dc5f7b2a_default Creating 
+ Network secondlook-06d7dc5f7b2a_default Created 
+ Network secondlook-06d7dc5f7b2a_default Created 
+ Container secondlook-06d7dc5f7b2a-db-1 Creating 
+ Container secondlook-06d7dc5f7b2a-db-1 Created 
+ Container secondlook-06d7dc5f7b2a-db-1 Starting 
+ Container secondlook-06d7dc5f7b2a-db-1 Started 
+ Container secondlook-06d7dc5f7b2a-db-1 Waiting 
+ Container secondlook-06d7dc5f7b2a-db-1 Healthy 
+
+2026-11-07T10:47:28.064+00:00 ('up', '-d', '--build', 'checkout') (exit 0)
+#1 [internal] load local bake definitions
+#1 reading from stdin 551B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 146B 0.1s done
+#2 DONE 0.3s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 2.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B 0.0s done
+#4 DONE 0.2s
+
+#5 [internal] load build context
+#5 transferring context: 33B 0.1s done
+#5 DONE 0.4s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54 0.4s done
+#6 DONE 0.5s
+
+#7 [2/4] WORKDIR /app
+#7 CACHED
+
+#8 [3/4] RUN pip install --no-cache-dir psycopg[binary]==3.2.10
+#8 CACHED
+
+#9 [4/4] COPY services.py .
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 exporting manifest sha256:47add41c1ed42a7a51fa9b4194031da0b933791caf33c7ced518a541f54e0f36
+#10 exporting manifest sha256:47add41c1ed42a7a51fa9b4194031da0b933791caf33c7ced518a541f54e0f36 0.3s done
+#10 exporting config sha256:6f239c406ff782e791a2f83d3f525c0c136fa2cf1ef5fa88dad904847d58092a
+#10 exporting config sha256:6f239c406ff782e791a2f83d3f525c0c136fa2cf1ef5fa88dad904847d58092a 0.3s done
+#10 exporting attestation manifest sha256:0f751530493a55e5d3fe5cc665ea43d6e37d2b6e94f125e4715205284d47c039
+#10 exporting attestation manifest sha256:0f751530493a55e5d3fe5cc665ea43d6e37d2b6e94f125e4715205284d47c039 0.3s done
+#10 exporting manifest list sha256:abc90a5749f474727a81c6698a94ad416008d48880f6d3f6622c0b5226521e36
+#10 exporting manifest list sha256:abc90a5749f474727a81c6698a94ad416008d48880f6d3f6622c0b5226521e36 0.4s done
+#10 naming to docker.io/library/secondlook-06d7dc5f7b2a-checkout:latest
+#10 naming to docker.io/library/secondlook-06d7dc5f7b2a-checkout:latest 0.1s done
+#10 unpacking to docker.io/library/secondlook-06d7dc5f7b2a-checkout:latest 0.1s done
+#10 DONE 2.0s
+
+#11 resolving provenance for metadata file
+#11 DONE 0.0s
+ Image secondlook-06d7dc5f7b2a-checkout Building 
+ Image secondlook-06d7dc5f7b2a-checkout Built 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Creating 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Created 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Starting 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Started 
+
+2026-11-07T10:47:33.026+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'ready') (exit 0)
+
+2026-11-07T10:47:46.604+00:00 ('up', '-d', '--no-deps', '--force-recreate', 'worker') (exit 0)
+#1 [internal] load local bake definitions
+#1 reading from stdin 543B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 146B 0.0s done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.2s
+
+#5 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#5 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 33B done
+#6 DONE 0.3s
+
+#5 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#5 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54 0.5s done
+#5 DONE 0.6s
+
+#7 [2/4] WORKDIR /app
+#7 CACHED
+
+#8 [3/4] RUN pip install --no-cache-dir psycopg[binary]==3.2.10
+#8 CACHED
+
+#9 [4/4] COPY services.py .
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 exporting manifest sha256:bc2ba5118b0da2c38f3be4ddc593ad887bc204cd25c7b33e2fc823300d3c5c41
+#10 exporting manifest sha256:bc2ba5118b0da2c38f3be4ddc593ad887bc204cd25c7b33e2fc823300d3c5c41 0.3s done
+#10 exporting config sha256:a637c052572e71a554d36be05ae19a5cd725da56cafdd6f5a7cb1ff41f8158b0
+#10 exporting config sha256:a637c052572e71a554d36be05ae19a5cd725da56cafdd6f5a7cb1ff41f8158b0 0.4s done
+#10 exporting attestation manifest sha256:5d7e9297b7eca39b9a1f2e48850a9c9029024f00d8e6b98b140892559e80e81a
+#10 exporting attestation manifest sha256:5d7e9297b7eca39b9a1f2e48850a9c9029024f00d8e6b98b140892559e80e81a 0.3s done
+#10 exporting manifest list sha256:ffcf111eb6241be6a929293625d5b1a8cbbfdf953784bf4ed68502768a76a0ba
+#10 exporting manifest list sha256:ffcf111eb6241be6a929293625d5b1a8cbbfdf953784bf4ed68502768a76a0ba 0.5s done
+#10 naming to docker.io/library/secondlook-06d7dc5f7b2a-worker:latest
+#10 naming to docker.io/library/secondlook-06d7dc5f7b2a-worker:latest 0.1s done
+#10 unpacking to docker.io/library/secondlook-06d7dc5f7b2a-worker:latest 0.1s done
+#10 DONE 2.2s
+
+#11 resolving provenance for metadata file
+#11 DONE 0.0s
+ Image secondlook-06d7dc5f7b2a-worker Building 
+ Image secondlook-06d7dc5f7b2a-worker Built 
+ Container secondlook-06d7dc5f7b2a-worker-3 Creating 
+ Container secondlook-06d7dc5f7b2a-worker-1 Creating 
+ Container secondlook-06d7dc5f7b2a-worker-2 Creating 
+ Container secondlook-06d7dc5f7b2a-worker-3 Created 
+ Container secondlook-06d7dc5f7b2a-worker-1 Created 
+ Container secondlook-06d7dc5f7b2a-worker-2 Created 
+ Container secondlook-06d7dc5f7b2a-worker-2 Starting 
+ Container secondlook-06d7dc5f7b2a-worker-2 Started 
+ Container secondlook-06d7dc5f7b2a-worker-1 Starting 
+ Container secondlook-06d7dc5f7b2a-worker-1 Started 
+ Container secondlook-06d7dc5f7b2a-worker-3 Starting 
+ Container secondlook-06d7dc5f7b2a-worker-3 Started 
+
+2026-11-07T10:47:47.835+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:47:48.637+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:47:49.800+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:47:50.484+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:47:52.683+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:47:53.485+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:47:55.651+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:47:56.388+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:47:58.504+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:47:59.394+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:01.756+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:02.589+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:04.776+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:05.525+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:07.998+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:08.886+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:11.062+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:11.775+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:13.885+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:14.599+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:16.709+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:17.438+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:19.658+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:20.383+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:22.428+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T10:48:23.164+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 9, "checkout" : 0, "total" : 10, "ordinary_roles" : 2}
+
+2026-11-07T10:48:24.831+00:00 ('logs', '--timestamps', '--no-color') (exit 0)
+db-1        | 2026-11-07T10:47:08.976840724Z The files belonging to this database system will be owned by user "postgres".
+checkout-1  | 2026-11-07T10:47:47.560085654Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:47:47.559637+00:00"}
+db-1        | 2026-11-07T10:47:08.976874028Z This user must also own the server process.
+db-1        | 2026-11-07T10:47:08.976878429Z 
+db-1        | 2026-11-07T10:47:09.025226354Z The database cluster will be initialized with locale "en_US.utf8".
+db-1        | 2026-11-07T10:47:09.025249057Z The default database encoding has accordingly been set to "UTF8".
+db-1        | 2026-11-07T10:47:09.025254358Z The default text search configuration will be set to "english".
+db-1        | 2026-11-07T10:47:09.025264159Z 
+db-1        | 2026-11-07T10:47:09.025271761Z Data page checksums are disabled.
+db-1        | 2026-11-07T10:47:09.025277061Z 
+db-1        | 2026-11-07T10:47:09.025281262Z fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db-1        | 2026-11-07T10:47:09.029077590Z creating subdirectories ... ok
+db-1        | 2026-11-07T10:47:09.029114195Z selecting dynamic shared memory implementation ... posix
+db-1        | 2026-11-07T10:47:09.372307433Z selecting default max_connections ... 100
+db-1        | 2026-11-07T10:47:09.400918312Z selecting default shared_buffers ... 128MB
+db-1        | 2026-11-07T10:47:09.488679120Z selecting default time zone ... Etc/UTC
+db-1        | 2026-11-07T10:47:09.518371450Z creating configuration files ... ok
+db-1        | 2026-11-07T10:47:09.830577777Z running bootstrap script ... ok
+db-1        | 2026-11-07T10:47:11.419003424Z performing post-bootstrap initialization ... ok
+db-1        | 2026-11-07T10:47:11.993631354Z syncing data to disk ... ok
+db-1        | 2026-11-07T10:47:11.993768973Z 
+db-1        | 2026-11-07T10:47:11.993778674Z 
+db-1        | 2026-11-07T10:47:11.993783975Z Success. You can now start the database server using:
+checkout-1  | 2026-11-07T10:47:49.506699917Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:47:49.506246+00:00"}
+checkout-1  | 2026-11-07T10:47:52.378175019Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:47:52.377709+00:00"}
+checkout-1  | 2026-11-07T10:47:55.353141274Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:47:55.352680+00:00"}
+checkout-1  | 2026-11-07T10:47:58.219846599Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:47:58.219404+00:00"}
+db-1        | 2026-11-07T10:47:11.993789476Z 
+db-1        | 2026-11-07T10:47:11.993794176Z     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db-1        | 2026-11-07T10:47:11.993799377Z 
+db-1        | 2026-11-07T10:47:11.993688562Z initdb: warning: enabling "trust" authentication for local connections
+db-1        | 2026-11-07T10:47:11.993867687Z initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db-1        | 2026-11-07T10:47:12.221506751Z waiting for server to start....2026-11-07 10:47:12.221 UTC [69] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1        | 2026-11-07T10:47:12.279347696Z 2026-11-07 10:47:12.278 UTC [69] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1        | 2026-11-07T10:47:12.458778855Z 2026-11-07 10:47:12.458 UTC [79] LOG:  database system was shut down at 2026-11-07 10:47:11 UTC
+db-1        | 2026-11-07T10:47:12.713626404Z 2026-11-07 10:47:12.713 UTC [69] LOG:  database system is ready to accept connections
+db-1        | 2026-11-07T10:47:12.774069011Z  done
+db-1        | 2026-11-07T10:47:12.774097015Z server started
+db-1        | 2026-11-07T10:47:13.223925085Z CREATE DATABASE
+db-1        | 2026-11-07T10:47:13.224828211Z 
+db-1        | 2026-11-07T10:47:13.224907422Z 
+db-1        | 2026-11-07T10:47:13.224921624Z /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/roles.sql
+db-1        | 2026-11-07T10:47:13.301528080Z REVOKE
+db-1        | 2026-11-07T10:47:13.332644708Z CREATE ROLE
+db-1        | 2026-11-07T10:47:13.368191553Z CREATE ROLE
+db-1        | 2026-11-07T10:47:13.388380861Z GRANT
+db-1        | 2026-11-07T10:47:13.457145426Z CREATE TABLE
+db-1        | 2026-11-07T10:47:13.477291328Z INSERT 0 1
+checkout-1  | 2026-11-07T10:48:01.443370308Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:01.442950+00:00"}
+checkout-1  | 2026-11-07T10:48:04.482508398Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:04.481912+00:00"}
+checkout-1  | 2026-11-07T10:48:07.667956969Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:07.667476+00:00"}
+checkout-1  | 2026-11-07T10:48:10.771393395Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:10.770973+00:00"}
+checkout-1  | 2026-11-07T10:48:13.600028775Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:13.599570+00:00"}
+checkout-1  | 2026-11-07T10:48:16.407983028Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:16.407513+00:00"}
+checkout-1  | 2026-11-07T10:48:19.375699642Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:19.375239+00:00"}
+checkout-1  | 2026-11-07T10:48:22.146385311Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T10:48:22.145938+00:00"}
+db-1        | 2026-11-07T10:47:13.501603510Z GRANT
+db-1        | 2026-11-07T10:47:13.503058312Z 
+db-1        | 2026-11-07T10:47:13.503082616Z 
+db-1        | 2026-11-07T10:47:13.504698540Z waiting for server to shut down...2026-11-07 10:47:13.504 UTC [69] LOG:  received fast shutdown request
+db-1        | 2026-11-07T10:47:13.546016288Z .2026-11-07 10:47:13.545 UTC [69] LOG:  aborting any active transactions
+db-1        | 2026-11-07T10:47:13.548217494Z 2026-11-07 10:47:13.547 UTC [69] LOG:  background worker "logical replication launcher" (PID 82) exited with exit code 1
+db-1        | 2026-11-07T10:47:13.548467329Z 2026-11-07 10:47:13.548 UTC [77] LOG:  shutting down
+db-1        | 2026-11-07T10:47:13.590514577Z 2026-11-07 10:47:13.590 UTC [77] LOG:  checkpoint starting: shutdown immediate
+db-1        | 2026-11-07T10:47:14.310927179Z 2026-11-07 10:47:14.310 UTC [77] LOG:  checkpoint complete: wrote 938 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.131 s, sync=0.407 s, total=0.763 s; sync files=310, longest=0.226 s, average=0.002 s; distance=4286 kB, estimate=4286 kB; lsn=0/19223B8, redo lsn=0/19223B8
+db-1        | 2026-11-07T10:47:14.322317284Z 2026-11-07 10:47:14.322 UTC [69] LOG:  database system is shut down
+db-1        | 2026-11-07T10:47:14.406627630Z  done
+db-1        | 2026-11-07T10:47:14.406656534Z server stopped
+db-1        | 2026-11-07T10:47:14.459878169Z 
+db-1        | 2026-11-07T10:47:14.459904273Z PostgreSQL init process complete; ready for start up.
+db-1        | 2026-11-07T10:47:14.459919575Z 
+db-1        | 2026-11-07T10:47:14.596362912Z 2026-11-07 10:47:14.596 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1        | 2026-11-07T10:47:14.601413679Z 2026-11-07 10:47:14.601 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db-1        | 2026-11-07T10:47:14.601431482Z 2026-11-07 10:47:14.601 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db-1        | 2026-11-07T10:47:14.699881196Z 2026-11-07 10:47:14.699 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1        | 2026-11-07T10:47:14.790136427Z 2026-11-07 10:47:14.789 UTC [108] LOG:  database system was shut down at 2026-11-07 10:47:14 UTC
+db-1        | 2026-11-07T10:47:14.846908132Z 2026-11-07 10:47:14.846 UTC [1] LOG:  database system is ready to accept connections
+worker-1    | 2026-11-07T10:47:45.745480343Z {"kind": "worker_open", "connections": 1, "pool_max": 3, "at": "2026-11-07T10:47:45.745013+00:00"}
+worker-1    | 2026-11-07T10:47:45.763434790Z {"kind": "worker_open", "connections": 2, "pool_max": 3, "at": "2026-11-07T10:47:45.763040+00:00"}
+worker-1    | 2026-11-07T10:47:45.781375236Z {"kind": "worker_open", "connections": 3, "pool_max": 3, "at": "2026-11-07T10:47:45.781044+00:00"}
+worker-2    | 2026-11-07T10:47:44.867161128Z {"kind": "worker_open", "connections": 1, "pool_max": 3, "at": "2026-11-07T10:47:44.866749+00:00"}
+worker-2    | 2026-11-07T10:47:44.880959808Z {"kind": "worker_open", "connections": 2, "pool_max": 3, "at": "2026-11-07T10:47:44.880630+00:00"}
+worker-2    | 2026-11-07T10:47:44.898384582Z {"kind": "worker_open", "connections": 3, "pool_max": 3, "at": "2026-11-07T10:47:44.897986+00:00"}
+worker-3    | 2026-11-07T10:47:46.919504712Z {"kind": "worker_open", "connections": 1, "pool_max": 3, "at": "2026-11-07T10:47:46.915561+00:00"}
+worker-3    | 2026-11-07T10:47:46.947487602Z {"kind": "worker_open", "connections": 2, "pool_max": 3, "at": "2026-11-07T10:47:46.947110+00:00"}
+worker-3    | 2026-11-07T10:47:46.976874353Z {"kind": "worker_open", "connections": 3, "pool_max": 3, "at": "2026-11-07T10:47:46.976278+00:00"}
+
+2026-11-07T10:48:32.339+00:00 ('down', '--volumes') (exit 0)
+ Container secondlook-06d7dc5f7b2a-db-1 Stopping 
+ Container secondlook-06d7dc5f7b2a-worker-3 Stopping 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Stopping 
+ Container secondlook-06d7dc5f7b2a-worker-2 Stopping 
+ Container secondlook-06d7dc5f7b2a-worker-1 Stopping 
+ Container secondlook-06d7dc5f7b2a-db-1 Stopped 
+ Container secondlook-06d7dc5f7b2a-db-1 Removing 
+ Container secondlook-06d7dc5f7b2a-db-1 Removed 
+ Container secondlook-06d7dc5f7b2a-worker-3 Stopped 
+ Container secondlook-06d7dc5f7b2a-worker-3 Removing 
+ Container secondlook-06d7dc5f7b2a-worker-1 Stopped 
+ Container secondlook-06d7dc5f7b2a-worker-1 Removing 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Stopped 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Removing 
+ Container secondlook-06d7dc5f7b2a-worker-2 Stopped 
+ Container secondlook-06d7dc5f7b2a-worker-2 Removing 
+ Container secondlook-06d7dc5f7b2a-worker-3 Removed 
+ Container secondlook-06d7dc5f7b2a-checkout-1 Removed 
+ Container secondlook-06d7dc5f7b2a-worker-1 Removed 
+ Container secondlook-06d7dc5f7b2a-worker-2 Removed 
+ Network secondlook-06d7dc5f7b2a_default Removing 
+ Network secondlook-06d7dc5f7b2a_default Removed 
