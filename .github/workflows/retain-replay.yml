@@ -1,0 +1,78 @@
+name: Retain measured lab evidence
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Local replay directory under evidence/
+        required: true
+        type: string
+      evidence_commit:
+        description: Published evidence branch commit SHA
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  retain:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the trusted retention client
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Check out previously measured outputs
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: refs/heads/codex/demo-evidence
+          path: published
+          persist-credentials: false
+      - name: Check evidence and retain through Hindsight
+        env:
+          HINDSIGHT_URL: ${{ vars.HINDSIGHT_URL }}
+          HINDSIGHT_BANK: ${{ vars.HINDSIGHT_BANK }}
+          HINDSIGHT_API_KEY: ${{ secrets.HINDSIGHT_API_KEY }}
+          RUN_ID: ${{ inputs.run_id }}
+          EVIDENCE_COMMIT: ${{ inputs.evidence_commit }}
+        run: |
+          [[ "$RUN_ID" =~ ^secondlook-[0-9a-f]{12}$ ]]
+          [[ "$EVIDENCE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          test "$(git -C published rev-parse HEAD)" = "$EVIDENCE_COMMIT"
+          test -n "$HINDSIGHT_API_KEY"
+          if [[ -z "$HINDSIGHT_BANK" ]]; then
+            HINDSIGHT_BANK="$(python3 - <<'PY'
+          import os
+          import re
+          from hindsight import api
+
+          banks = api(
+              os.environ["HINDSIGHT_URL"] + "/v1/default/banks?limit=100",
+              token=os.environ["HINDSIGHT_API_KEY"],
+          )["banks"]
+          matches = [
+              bank for bank in banks
+              if any(re.sub(r"[^a-z0-9]", "", (value or "").lower()) == "secondlookdemo"
+                     for value in (bank.get("name"), bank.get("bank_id"), bank.get("display_alias")))
+          ]
+          if len(matches) != 1 or not re.fullmatch(r"[a-zA-Z0-9_-]+", matches[0]["bank_id"]):
+              raise SystemExit("Configure HINDSIGHT_BANK with the exact demo bank ID")
+          if matches[0].get("fact_count") or matches[0].get("last_write_at"):
+              raise SystemExit("The discovered demo bank already contains memory")
+          print(matches[0]["bank_id"])
+          PY
+            )"
+            export HINDSIGHT_BANK
+          fi
+          echo "Hindsight bank: $HINDSIGHT_BANK"
+          python3 hindsight.py retain "published/evidence/$RUN_ID/events.jsonl" \
+            --raw-base-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$EVIDENCE_COMMIT/evidence/$RUN_ID"
+      - name: Save the API response audit
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: hindsight-retain-audit
+          path: published/evidence/${{ inputs.run_id }}/hindsight-retain-*.json
+          if-no-files-found: error
