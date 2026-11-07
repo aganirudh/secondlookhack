@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:16
+    command:
+      - postgres
+      - -c
+      - max_connections=${DB_MAX:?}
+      - -c
+      - superuser_reserved_connections=${DB_RESERVED:?}
+    environment:
+      POSTGRES_PASSWORD: lab-admin
+      POSTGRES_DB: checkout_lab
+    volumes:
+      - ./roles.sql:/docker-entrypoint-initdb.d/roles.sql:ro
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -h 127.0.0.1 -U postgres -d checkout_lab"]
+      interval: 1s
+      timeout: 3s
+      retries: 60
+  checkout:
+    build: .
+    command: [python, -u, services.py, checkout]
+    environment:
+      CHECKOUT_MAX: ${CHECKOUT_MAX:?}
+  worker:
+    build: .
+    command: [python, -u, services.py, worker]
+    scale: ${WORKER_REPLICAS:?}
+    environment:
+      WORKER_POOL_MAX: ${WORKER_POOL_MAX:?}
+networks:
+  default:
+    internal: true

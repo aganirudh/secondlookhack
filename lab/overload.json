@@ -1,0 +1,8 @@
+{
+  "postgres_max_connections": 20,
+  "postgres_superuser_reserved": 3,
+  "checkout_connections": 3,
+  "headroom": 3,
+  "worker_replicas": 4,
+  "worker_pool_max": 5
+}
