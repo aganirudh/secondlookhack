@@ -58,6 +58,8 @@ jobs:
               if any(re.sub(r"[^a-z0-9]", "", (value or "").lower()) == "secondlookdemo"
                      for value in (bank.get("name"), bank.get("bank_id"), bank.get("display_alias")))
           ]
+          if not matches and len(banks) == 1:
+              matches = banks
           if len(matches) != 1 or not re.fullmatch(r"[a-zA-Z0-9_-]+", matches[0]["bank_id"]):
               raise SystemExit("Configure HINDSIGHT_BANK with the exact demo bank ID")
           if matches[0].get("fact_count") or matches[0].get("last_write_at"):
