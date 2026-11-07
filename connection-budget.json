@@ -3,6 +3,6 @@
   "postgres_superuser_reserved": 3,
   "checkout_connections": 3,
   "headroom": 3,
-  "worker_replicas": 4,
-  "worker_pool_max": 5
+  "worker_replicas": 3,
+  "worker_pool_max": 3
 }
