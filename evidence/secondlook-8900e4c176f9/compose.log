@@ -1,0 +1,2269 @@
+
+2026-11-07T09:46:35.792+00:00 ('up', '-d', '--wait', '--wait-timeout', '90', 'db') (exit 0)
+ Image postgres:16 Pulling 
+ be193f0583fb Pulling fs layer 0B
+ e9dd37612d7b Pulling fs layer 0B
+ 1244f763be36 Pulling fs layer 0B
+ 9732cf873eb7 Pulling fs layer 0B
+ 6d141360b363 Pulling fs layer 0B
+ 7e0f86eb8508 Pulling fs layer 0B
+ c924699dde26 Pulling fs layer 0B
+ d9f83a042741 Pulling fs layer 0B
+ a28de24f57c0 Pulling fs layer 0B
+ 369949eb0229 Pulling fs layer 0B
+ da434b32d480 Pulling fs layer 0B
+ 379ccbe62e26 Pulling fs layer 0B
+ 37fb86c2a767 Pulling fs layer 0B
+ bcc75ab4e010 Pulling fs layer 0B
+ a28de24f57c0 Downloading 116B
+ a28de24f57c0 Downloading 116B
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 1.049MB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 1.049MB
+ d9f83a042741 Downloading 6.107kB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 2.097MB
+ d9f83a042741 Downloading 6.107kB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 2.097MB
+ d9f83a042741 Downloading 6.107kB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 2.097MB
+ 379ccbe62e26 Downloading 548.9kB
+ 1244f763be36 Downloading 10.12kB
+ d9f83a042741 Downloading 6.107kB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 2.097MB
+ 1244f763be36 Downloading 10.12kB
+ d9f83a042741 Downloading 6.107kB
+ a28de24f57c0 Downloading 116B
+ 37fb86c2a767 Downloading 3.146MB
+ 379ccbe62e26 Downloading 1.049MB
+ 1244f763be36 Downloading 10.12kB
+ d9f83a042741 Download complete 0B
+ a28de24f57c0 Download complete 0B
+ 37fb86c2a767 Downloading 3.146MB
+ 379ccbe62e26 Downloading 1.049MB
+ 37fb86c2a767 Downloading 4.194MB
+ 379ccbe62e26 Downloading 1.049MB
+ 1244f763be36 Download complete 0B
+ 37fb86c2a767 Downloading 4.194MB
+ 379ccbe62e26 Downloading 1.049MB
+ 37fb86c2a767 Downloading 4.194MB
+ 379ccbe62e26 Downloading 2.097MB
+ 37fb86c2a767 Downloading 4.194MB
+ 379ccbe62e26 Downloading 2.097MB
+ 379ccbe62e26 Downloading 2.097MB
+ 37fb86c2a767 Downloading 5.243MB
+ 7e0f86eb8508 Downloading 1.049MB
+ 7e0f86eb8508 Downloading 1.257MB
+ 379ccbe62e26 Downloading 2.097MB
+ 37fb86c2a767 Downloading 5.243MB
+ 37fb86c2a767 Downloading 5.243MB
+ 7e0f86eb8508 Download complete 0B
+ 379ccbe62e26 Downloading 2.097MB
+ 37fb86c2a767 Downloading 5.243MB
+ 379ccbe62e26 Downloading 3.146MB
+ 37fb86c2a767 Downloading 5.243MB
+ 379ccbe62e26 Downloading 3.146MB
+ be193f0583fb Download complete 0B
+ 37fb86c2a767 Downloading 5.243MB
+ 379ccbe62e26 Downloading 3.146MB
+ 37fb86c2a767 Downloading 5.243MB
+ 379ccbe62e26 Downloading 3.146MB
+ 379ccbe62e26 Downloading 4.194MB
+ 37fb86c2a767 Downloading 5.243MB
+ 379ccbe62e26 Downloading 4.194MB
+ 37fb86c2a767 Downloading 6.291MB
+ 37fb86c2a767 Downloading 6.291MB
+ 379ccbe62e26 Downloading 4.194MB
+ 37fb86c2a767 Downloading 6.291MB
+ 379ccbe62e26 Downloading 4.194MB
+ 37fb86c2a767 Downloading 6.291MB
+ 379ccbe62e26 Downloading 4.194MB
+ 37fb86c2a767 Downloading 6.291MB
+ 379ccbe62e26 Downloading 5.243MB
+ 379ccbe62e26 Downloading 5.243MB
+ 37fb86c2a767 Downloading 6.291MB
+ 379ccbe62e26 Downloading 5.243MB
+ da434b32d480 Downloading 1.049MB
+ 37fb86c2a767 Downloading 7.34MB
+ da434b32d480 Downloading 2.097MB
+ 37fb86c2a767 Downloading 7.34MB
+ 379ccbe62e26 Downloading 5.243MB
+ da434b32d480 Downloading 2.097MB
+ 37fb86c2a767 Downloading 7.34MB
+ 379ccbe62e26 Downloading 5.243MB
+ 379ccbe62e26 Downloading 5.243MB
+ da434b32d480 Downloading 3.146MB
+ 37fb86c2a767 Downloading 7.34MB
+ da434b32d480 Downloading 3.146MB
+ 37fb86c2a767 Downloading 8.389MB
+ 379ccbe62e26 Downloading 5.243MB
+ 379ccbe62e26 Downloading 6.291MB
+ da434b32d480 Downloading 3.146MB
+ 37fb86c2a767 Downloading 8.389MB
+ 379ccbe62e26 Downloading 6.291MB
+ da434b32d480 Downloading 3.146MB
+ 37fb86c2a767 Downloading 8.389MB
+ da434b32d480 Downloading 4.194MB
+ 37fb86c2a767 Downloading 8.389MB
+ 379ccbe62e26 Downloading 6.291MB
+ da434b32d480 Downloading 4.194MB
+ 37fb86c2a767 Downloading 8.389MB
+ 379ccbe62e26 Downloading 7.34MB
+ 37fb86c2a767 Downloading 9.437MB
+ 379ccbe62e26 Downloading 7.34MB
+ da434b32d480 Downloading 4.194MB
+ da434b32d480 Downloading 4.194MB
+ 37fb86c2a767 Downloading 9.437MB
+ 379ccbe62e26 Downloading 7.34MB
+ da434b32d480 Downloading 5.243MB
+ 37fb86c2a767 Downloading 9.437MB
+ 379ccbe62e26 Downloading 8.389MB
+ da434b32d480 Downloading 5.243MB
+ 37fb86c2a767 Downloading 9.437MB
+ 379ccbe62e26 Downloading 8.389MB
+ da434b32d480 Downloading 5.243MB
+ 37fb86c2a767 Downloading 9.437MB
+ 379ccbe62e26 Downloading 8.389MB
+ da434b32d480 Downloading 5.243MB
+ 37fb86c2a767 Downloading 10.49MB
+ 379ccbe62e26 Downloading 8.389MB
+ da434b32d480 Downloading 6.291MB
+ 37fb86c2a767 Downloading 10.49MB
+ 379ccbe62e26 Downloading 8.389MB
+ da434b32d480 Downloading 6.291MB
+ 37fb86c2a767 Downloading 10.49MB
+ 379ccbe62e26 Downloading 9.437MB
+ 379ccbe62e26 Downloading 9.437MB
+ da434b32d480 Downloading 6.291MB
+ 37fb86c2a767 Downloading 10.49MB
+ da434b32d480 Downloading 6.291MB
+ 37fb86c2a767 Downloading 10.49MB
+ 379ccbe62e26 Downloading 9.437MB
+ 37fb86c2a767 Downloading 10.49MB
+ 379ccbe62e26 Downloading 10.49MB
+ da434b32d480 Downloading 7.34MB
+ da434b32d480 Downloading 7.34MB
+ 37fb86c2a767 Downloading 11.53MB
+ 379ccbe62e26 Downloading 10.49MB
+ da434b32d480 Downloading 7.34MB
+ 37fb86c2a767 Downloading 11.53MB
+ 379ccbe62e26 Downloading 10.49MB
+ da434b32d480 Downloading 7.34MB
+ 37fb86c2a767 Downloading 11.53MB
+ 379ccbe62e26 Downloading 10.49MB
+ da434b32d480 Download complete 0B
+ 37fb86c2a767 Downloading 11.53MB
+ 379ccbe62e26 Downloading 10.49MB
+ 37fb86c2a767 Downloading 11.53MB
+ 379ccbe62e26 Downloading 10.9MB
+ 37fb86c2a767 Downloading 12.58MB
+ 379ccbe62e26 Downloading 11.53MB
+ 37fb86c2a767 Downloading 12.58MB
+ c924699dde26 Download complete 0B
+ 379ccbe62e26 Downloading 11.53MB
+ 379ccbe62e26 Downloading 12.58MB
+ 37fb86c2a767 Downloading 12.58MB
+ 37fb86c2a767 Downloading 13.63MB
+ 379ccbe62e26 Downloading 12.58MB
+ e9dd37612d7b Download complete 0B
+ 379ccbe62e26 Downloading 12.58MB
+ 37fb86c2a767 Downloading 13.63MB
+ 9732cf873eb7 Download complete 0B
+ 37fb86c2a767 Downloading 14.68MB
+ 379ccbe62e26 Downloading 13.63MB
+ 37fb86c2a767 Downloading 14.68MB
+ 379ccbe62e26 Downloading 13.63MB
+ 37fb86c2a767 Downloading 15.73MB
+ 379ccbe62e26 Downloading 13.63MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 15.73MB
+ 37fb86c2a767 Downloading 15.73MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 15.73MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 15.73MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 16.78MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 16.78MB
+ 379ccbe62e26 Downloading 14.68MB
+ 37fb86c2a767 Downloading 16.78MB
+ 379ccbe62e26 Downloading 15.73MB
+ 369949eb0229 Downloading 1.049MB
+ 369949eb0229 Downloading 1.049MB
+ 37fb86c2a767 Downloading 16.78MB
+ 379ccbe62e26 Downloading 15.73MB
+ 379ccbe62e26 Downloading 15.73MB
+ 369949eb0229 Downloading 1.049MB
+ 37fb86c2a767 Downloading 17.83MB
+ 369949eb0229 Downloading 1.049MB
+ 37fb86c2a767 Downloading 17.83MB
+ 379ccbe62e26 Downloading 15.73MB
+ 369949eb0229 Downloading 1.049MB
+ 37fb86c2a767 Downloading 17.83MB
+ 379ccbe62e26 Downloading 15.73MB
+ 37fb86c2a767 Downloading 17.83MB
+ 379ccbe62e26 Downloading 15.73MB
+ 369949eb0229 Downloading 1.049MB
+ 369949eb0229 Downloading 2.097MB
+ 37fb86c2a767 Downloading 17.83MB
+ 379ccbe62e26 Downloading 16.78MB
+ 379ccbe62e26 Downloading 16.78MB
+ 369949eb0229 Downloading 2.097MB
+ 37fb86c2a767 Downloading 17.83MB
+ 369949eb0229 Downloading 2.097MB
+ 37fb86c2a767 Downloading 17.83MB
+ 379ccbe62e26 Downloading 16.78MB
+ 379ccbe62e26 Downloading 16.78MB
+ 369949eb0229 Downloading 2.097MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 16.78MB
+ 369949eb0229 Downloading 2.4MB
+ 37fb86c2a767 Downloading 18.87MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 16.78MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 18.87MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 3.146MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 17.83MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 17.83MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 369949eb0229 Downloading 4.194MB
+ 37fb86c2a767 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 19.92MB
+ 379ccbe62e26 Downloading 18.87MB
+ 37fb86c2a767 Downloading 20.97MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 379ccbe62e26 Downloading 19.92MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 20.97MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 5.243MB
+ 37fb86c2a767 Downloading 22.02MB
+ 379ccbe62e26 Downloading 19.92MB
+ 369949eb0229 Downloading 6.291MB
+ 37fb86c2a767 Downloading 22.02MB
+ 379ccbe62e26 Downloading 20.97MB
+ 369949eb0229 Downloading 6.443MB
+ 37fb86c2a767 Downloading 22.02MB
+ 379ccbe62e26 Downloading 20.97MB
+ 379ccbe62e26 Downloading 20.97MB
+ 369949eb0229 Download complete 0B
+ 37fb86c2a767 Downloading 22.02MB
+ 37fb86c2a767 Downloading 23.07MB
+ 379ccbe62e26 Downloading 20.97MB
+ 6d141360b363 Download complete 0B
+ 37fb86c2a767 Downloading 23.07MB
+ 379ccbe62e26 Downloading 22.02MB
+ 37fb86c2a767 Downloading 23.07MB
+ 379ccbe62e26 Downloading 22.02MB
+ 37fb86c2a767 Downloading 23.07MB
+ 379ccbe62e26 Downloading 22.02MB
+ 37fb86c2a767 Downloading 24.12MB
+ 379ccbe62e26 Downloading 22.02MB
+ 37fb86c2a767 Downloading 24.12MB
+ 379ccbe62e26 Downloading 23.07MB
+ 37fb86c2a767 Downloading 24.12MB
+ 379ccbe62e26 Downloading 23.07MB
+ 379ccbe62e26 Downloading 23.07MB
+ 37fb86c2a767 Downloading 24.12MB
+ 37fb86c2a767 Downloading 24.12MB
+ 379ccbe62e26 Downloading 23.07MB
+ 37fb86c2a767 Downloading 25.17MB
+ 379ccbe62e26 Downloading 23.07MB
+ 37fb86c2a767 Downloading 25.17MB
+ 379ccbe62e26 Downloading 23.07MB
+ 37fb86c2a767 Downloading 25.17MB
+ 379ccbe62e26 Downloading 23.07MB
+ bcc75ab4e010 Downloading 1.049MB
+ 37fb86c2a767 Downloading 25.17MB
+ 379ccbe62e26 Downloading 24.12MB
+ bcc75ab4e010 Download complete 0B
+ 37fb86c2a767 Downloading 26.21MB
+ 379ccbe62e26 Downloading 24.12MB
+ 379ccbe62e26 Downloading 24.12MB
+ 37fb86c2a767 Downloading 26.21MB
+ 37fb86c2a767 Downloading 26.21MB
+ 379ccbe62e26 Downloading 24.12MB
+ 37fb86c2a767 Downloading 26.21MB
+ 379ccbe62e26 Downloading 24.12MB
+ 37fb86c2a767 Downloading 26.21MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 26.21MB
+ 379ccbe62e26 Downloading 25.17MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 26.21MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 25.17MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 27.26MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 25.17MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 26.21MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 26.21MB
+ 37fb86c2a767 Downloading 27.26MB
+ 379ccbe62e26 Downloading 26.21MB
+ 37fb86c2a767 Downloading 28.31MB
+ 379ccbe62e26 Downloading 26.21MB
+ 37fb86c2a767 Downloading 28.31MB
+ 379ccbe62e26 Downloading 26.21MB
+ 3e9a8bde18c8 Downloading 733.2kB
+ 37fb86c2a767 Downloading 28.31MB
+ 379ccbe62e26 Downloading 26.21MB
+ 3e9a8bde18c8 Downloading 1.049MB
+ 37fb86c2a767 Downloading 28.31MB
+ 379ccbe62e26 Downloading 27.09MB
+ 3e9a8bde18c8 Downloading 1.049MB
+ 37fb86c2a767 Downloading 28.31MB
+ 379ccbe62e26 Downloading 27.26MB
+ 3e9a8bde18c8 Downloading 1.049MB
+ 37fb86c2a767 Downloading 29.36MB
+ 379ccbe62e26 Downloading 27.26MB
+ 37fb86c2a767 Downloading 29.86MB
+ 379ccbe62e26 Downloading 27.26MB
+ 3e9a8bde18c8 Downloading 1.049MB
+ 3e9a8bde18c8 Downloading 2.097MB
+ 37fb86c2a767 Downloading 29.86MB
+ 379ccbe62e26 Downloading 27.26MB
+ 379ccbe62e26 Downloading 28.31MB
+ 3e9a8bde18c8 Downloading 2.097MB
+ 37fb86c2a767 Downloading 29.86MB
+ 3e9a8bde18c8 Downloading 2.097MB
+ 37fb86c2a767 Download complete 0B
+ 379ccbe62e26 Downloading 28.31MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 2.097MB
+ 379ccbe62e26 Downloading 28.31MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 2.097MB
+ 379ccbe62e26 Downloading 28.31MB
+ aad9f8e2454d Download complete 0B
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 3.146MB
+ 379ccbe62e26 Downloading 28.31MB
+ 37fb86c2a767 Extracting 1B
+ 379ccbe62e26 Downloading 28.31MB
+ 3e9a8bde18c8 Downloading 3.146MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 3.146MB
+ 379ccbe62e26 Downloading 28.7MB
+ 37fb86c2a767 Extracting 1B
+ 379ccbe62e26 Downloading 29.36MB
+ 3e9a8bde18c8 Downloading 3.146MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 29.36MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 29.36MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 29.36MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 29.36MB
+ 37fb86c2a767 Extracting 1B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 30.41MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Downloading 4.194MB
+ 379ccbe62e26 Downloading 30.41MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Downloading 5.243MB
+ 379ccbe62e26 Downloading 30.41MB
+ 37fb86c2a767 Extracting 2B
+ 379ccbe62e26 Downloading 30.41MB
+ 3e9a8bde18c8 Downloading 5.715MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Downloading 5.715MB
+ 379ccbe62e26 Downloading 31.46MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Downloading 5.715MB
+ 379ccbe62e26 Downloading 32.51MB
+ 37fb86c2a767 Extracting 2B
+ 379ccbe62e26 Downloading 32.51MB
+ 3e9a8bde18c8 Downloading 5.715MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Downloading 5.715MB
+ 379ccbe62e26 Downloading 33.55MB
+ 37fb86c2a767 Extracting 2B
+ 379ccbe62e26 Downloading 33.55MB
+ 37fb86c2a767 Extracting 2B
+ 3e9a8bde18c8 Download complete 0B
+ 379ccbe62e26 Downloading 34.6MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 34.6MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 34.6MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 35.65MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 35.65MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 35.65MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 36.7MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 36.7MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 36.7MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 36.7MB
+ 37fb86c2a767 Extracting 3B
+ 379ccbe62e26 Downloading 36.7MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 37.75MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 4B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 38.8MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 5B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 39.85MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 40.89MB
+ 37fb86c2a767 Extracting 6B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 37fb86c2a767 Extracting 7B
+ 379ccbe62e26 Downloading 41.94MB
+ 379ccbe62e26 Downloading 41.94MB
+ 379ccbe62e26 Downloading 42.99MB
+ 37fb86c2a767 Pull complete 0B
+ 379ccbe62e26 Downloading 42.99MB
+ 379ccbe62e26 Downloading 42.99MB
+ e9dd37612d7b Extracting 1B
+ 379ccbe62e26 Downloading 42.99MB
+ e9dd37612d7b Pull complete 0B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 44.04MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 1B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 2B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 2B
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Extracting 2B
+ 379ccbe62e26 Downloading 45.09MB
+ 379ccbe62e26 Downloading 45.09MB
+ 369949eb0229 Pull complete 0B
+ 379ccbe62e26 Downloading 45.09MB
+ 379ccbe62e26 Downloading 45.09MB
+ 379ccbe62e26 Downloading 45.09MB
+ 7e0f86eb8508 Extracting 1B
+ 379ccbe62e26 Downloading 45.56MB
+ 7e0f86eb8508 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ 7e0f86eb8508 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ 379ccbe62e26 Downloading 46.14MB
+ 7e0f86eb8508 Pull complete 0B
+ 379ccbe62e26 Downloading 46.14MB
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 46.14MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 1B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 47.19MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 2B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 3B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 3B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 3B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 3B
+ 379ccbe62e26 Downloading 48.23MB
+ da434b32d480 Extracting 3B
+ 379ccbe62e26 Downloading 48.23MB
+ 379ccbe62e26 Downloading 48.23MB
+ 379ccbe62e26 Downloading 49.28MB
+ da434b32d480 Pull complete 0B
+ 379ccbe62e26 Downloading 49.28MB
+ bcc75ab4e010 Extracting 1B
+ 379ccbe62e26 Downloading 49.28MB
+ bcc75ab4e010 Extracting 1B
+ 379ccbe62e26 Downloading 49.28MB
+ bcc75ab4e010 Extracting 1B
+ 379ccbe62e26 Downloading 49.28MB
+ bcc75ab4e010 Extracting 1B
+ 379ccbe62e26 Downloading 50.33MB
+ bcc75ab4e010 Pull complete 0B
+ 379ccbe62e26 Downloading 50.33MB
+ a28de24f57c0 Extracting 1B
+ 379ccbe62e26 Downloading 50.33MB
+ 379ccbe62e26 Downloading 50.33MB
+ a28de24f57c0 Pull complete 0B
+ 379ccbe62e26 Downloading 51.38MB
+ 379ccbe62e26 Downloading 51.38MB
+ 6d141360b363 Pull complete 0B
+ 379ccbe62e26 Downloading 51.38MB
+ 379ccbe62e26 Downloading 51.38MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 52.43MB
+ 379ccbe62e26 Downloading 53.48MB
+ 379ccbe62e26 Downloading 53.48MB
+ 379ccbe62e26 Downloading 53.48MB
+ 379ccbe62e26 Downloading 53.48MB
+ 379ccbe62e26 Downloading 53.48MB
+ 379ccbe62e26 Downloading 54.53MB
+ 379ccbe62e26 Downloading 54.53MB
+ 379ccbe62e26 Downloading 54.53MB
+ 379ccbe62e26 Downloading 55.57MB
+ 379ccbe62e26 Downloading 56.62MB
+ 379ccbe62e26 Downloading 57.54MB
+ 379ccbe62e26 Downloading 57.67MB
+ 379ccbe62e26 Downloading 57.67MB
+ 379ccbe62e26 Downloading 57.67MB
+ 379ccbe62e26 Downloading 57.67MB
+ 379ccbe62e26 Downloading 57.67MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 58.72MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 59.77MB
+ 379ccbe62e26 Downloading 60.82MB
+ 379ccbe62e26 Downloading 60.82MB
+ 379ccbe62e26 Downloading 60.82MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 61.87MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 62.91MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 63.96MB
+ 379ccbe62e26 Downloading 64.12MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 65.01MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 66.06MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 67.11MB
+ 379ccbe62e26 Downloading 68.16MB
+ 379ccbe62e26 Downloading 68.16MB
+ 379ccbe62e26 Downloading 68.16MB
+ 379ccbe62e26 Downloading 69.21MB
+ 379ccbe62e26 Downloading 69.21MB
+ 379ccbe62e26 Downloading 69.21MB
+ 379ccbe62e26 Downloading 69.21MB
+ 379ccbe62e26 Downloading 69.21MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 70.25MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 71.3MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 72.35MB
+ 379ccbe62e26 Downloading 73.4MB
+ 379ccbe62e26 Downloading 73.4MB
+ 379ccbe62e26 Downloading 73.4MB
+ 379ccbe62e26 Downloading 73.4MB
+ 379ccbe62e26 Downloading 73.4MB
+ 379ccbe62e26 Downloading 74.45MB
+ 379ccbe62e26 Downloading 74.45MB
+ 379ccbe62e26 Downloading 74.45MB
+ 379ccbe62e26 Downloading 74.45MB
+ 379ccbe62e26 Downloading 75.5MB
+ 379ccbe62e26 Downloading 75.5MB
+ 379ccbe62e26 Downloading 75.5MB
+ 379ccbe62e26 Downloading 76.55MB
+ 379ccbe62e26 Downloading 76.55MB
+ 379ccbe62e26 Downloading 76.55MB
+ 379ccbe62e26 Downloading 76.55MB
+ 379ccbe62e26 Downloading 77.59MB
+ 379ccbe62e26 Downloading 77.59MB
+ 379ccbe62e26 Downloading 77.59MB
+ 379ccbe62e26 Downloading 77.59MB
+ 379ccbe62e26 Downloading 77.59MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 78.64MB
+ 379ccbe62e26 Downloading 79.69MB
+ 379ccbe62e26 Downloading 79.69MB
+ 379ccbe62e26 Downloading 79.69MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 80.74MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 81.79MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 82.84MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 83.89MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 84.93MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 85.98MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 87.03MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 88.08MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.13MB
+ 379ccbe62e26 Downloading 89.57MB
+ 379ccbe62e26 Downloading 89.57MB
+ 379ccbe62e26 Downloading 89.57MB
+ 379ccbe62e26 Downloading 89.57MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 90.18MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 91.23MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 92.27MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 93.32MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 94.37MB
+ 379ccbe62e26 Downloading 95.11MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 95.42MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 96.47MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 97.52MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 98.57MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 99.61MB
+ 379ccbe62e26 Downloading 100.7MB
+ 379ccbe62e26 Downloading 100.7MB
+ 379ccbe62e26 Downloading 100.7MB
+ 379ccbe62e26 Downloading 100.7MB
+ 379ccbe62e26 Downloading 101.7MB
+ 379ccbe62e26 Downloading 101.7MB
+ 379ccbe62e26 Downloading 101.7MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 102.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 103.8MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 104.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 105.9MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 107MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 108MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 109.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 110.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 111.1MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 112.2MB
+ 379ccbe62e26 Downloading 113.1MB
+ 379ccbe62e26 Downloading 113.2MB
+ 379ccbe62e26 Downloading 113.2MB
+ 379ccbe62e26 Downloading 113.2MB
+ 379ccbe62e26 Download complete 0B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 1B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 2B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 3B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 4B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 5B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 6B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 7B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 8B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 9B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 10B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 11B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 12B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 13B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 14B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 15B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 16B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 17B
+ 379ccbe62e26 Extracting 18B
+ 379ccbe62e26 Extracting 18B
+ 379ccbe62e26 Pull complete 0B
+ 1244f763be36 Pull complete 0B
+ 9732cf873eb7 Extracting 1B
+ c924699dde26 Extracting 1B
+ 9732cf873eb7 Pull complete 0B
+ c924699dde26 Pull complete 0B
+ d9f83a042741 Extracting 1B
+ d9f83a042741 Pull complete 0B
+ be193f0583fb Extracting 1B
+ be193f0583fb Pull complete 0B
+ Image postgres:16 Pulled 
+ Network secondlook-8900e4c176f9_default Creating 
+ Network secondlook-8900e4c176f9_default Creating 
+ Network secondlook-8900e4c176f9_default Created 
+ Network secondlook-8900e4c176f9_default Created 
+ Container secondlook-8900e4c176f9-db-1 Creating 
+ Container secondlook-8900e4c176f9-db-1 Created 
+ Container secondlook-8900e4c176f9-db-1 Starting 
+ Container secondlook-8900e4c176f9-db-1 Started 
+ Container secondlook-8900e4c176f9-db-1 Waiting 
+ Container secondlook-8900e4c176f9-db-1 Healthy 
+
+2026-11-07T09:50:49.288+00:00 ('up', '-d', '--build', 'checkout') (exit 0)
+#1 [internal] load local bake definitions
+#1 reading from stdin 559B
+#1 reading from stdin 559B 0.2s done
+#1 DONE 0.2s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile:
+#2 transferring dockerfile: 146B 1.2s done
+#2 DONE 2.9s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 14.7s
+
+#4 [internal] load .dockerignore
+#4 transferring context:
+#4 transferring context: 2B 0.4s done
+#4 DONE 2.4s
+
+#5 [internal] load build context
+#5 transferring context: 2.80kB 0.2s done
+#5 DONE 2.5s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54 1.4s done
+#6 DONE 4.4s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41
+#6 sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9 0B / 1.29MB 0.2s
+#6 sha256:05e0eee5572e9c9f50408a2132590133b830a668a1cf2ff2b150f19c57707e2b 0B / 248B 0.2s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 0B / 12.12MB 0.2s
+#6 sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9 1.05MB / 1.29MB 0.9s
+#6 sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9 1.29MB / 1.29MB 1.1s
+#6 sha256:05e0eee5572e9c9f50408a2132590133b830a668a1cf2ff2b150f19c57707e2b 248B / 248B 1.0s done
+#6 sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9 1.29MB / 1.29MB 1.2s done
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 1.05MB / 12.12MB 1.7s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 2.10MB / 12.12MB 3.5s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 3.15MB / 12.12MB 3.8s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 4.19MB / 12.12MB 5.4s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 5.24MB / 12.12MB 7.0s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 6.22MB / 12.12MB 9.1s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 7.34MB / 12.12MB 12.3s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 8.39MB / 12.12MB 13.2s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 9.44MB / 12.12MB 14.3s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 10.49MB / 12.12MB 15.3s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 11.53MB / 12.12MB 15.9s
+#6 sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 12.12MB / 12.12MB 16.6s done
+#6 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 20.0s done
+#6 DONE 24.5s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 extracting sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9
+#6 extracting sha256:68bced9e0afa4479df17c3646e27c7c7e9ce9ba70c0e6c73b6826487b89037d9 1.3s done
+#6 DONE 25.8s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 extracting sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085
+#6 extracting sha256:2dc99d2d0a39fce31e37615eb4c932e16dcc4c2b0ce9993714280081b5dbe085 5.2s done
+#6 DONE 31.0s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 extracting sha256:05e0eee5572e9c9f50408a2132590133b830a668a1cf2ff2b150f19c57707e2b
+#6 extracting sha256:05e0eee5572e9c9f50408a2132590133b830a668a1cf2ff2b150f19c57707e2b 0.9s done
+#6 DONE 31.9s
+
+#7 [2/4] WORKDIR /app
+#7 DONE 15.6s
+
+#8 [3/4] RUN pip install --no-cache-dir psycopg[binary]==3.2.10
+#8 18.06 Collecting psycopg==3.2.10 (from psycopg[binary]==3.2.10)
+#8 19.57   Downloading psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+#8 19.86 Collecting typing-extensions>=4.6 (from psycopg==3.2.10->psycopg[binary]==3.2.10)
+#8 19.95   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#8 22.57 Collecting psycopg-binary==3.2.10 (from psycopg[binary]==3.2.10)
+#8 22.64   Downloading psycopg_binary-3.2.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+#8 23.07 Downloading psycopg-3.2.10-py3-none-any.whl (206 kB)
+#8 23.35 Downloading psycopg_binary-3.2.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+#8 25.56    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 2.5 MB/s eta 0:00:00
+#8 25.67 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#8 25.88 Installing collected packages: typing-extensions, psycopg-binary, psycopg
+#8 31.81 Successfully installed psycopg-3.2.10 psycopg-binary-3.2.10 typing-extensions-4.16.0
+#8 31.81 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#8 32.38 
+#8 32.38 [notice] A new release of pip is available: 25.0.1 -> 26.3
+#8 32.38 [notice] To update, run: pip install --upgrade pip
+#8 DONE 38.6s
+
+#9 [4/4] COPY services.py .
+#9 DONE 9.5s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 14.4s done
+#10 exporting manifest sha256:6733243a53029a9df304201d7e309471f2866b1b7296e04e020ed8046be50d06
+#10 exporting manifest sha256:6733243a53029a9df304201d7e309471f2866b1b7296e04e020ed8046be50d06 0.2s done
+#10 exporting config sha256:429ede76d278693e080021d1b0a38a5f51d21e77a63a77f2c13fc29c1d2041fd
+#10 exporting config sha256:429ede76d278693e080021d1b0a38a5f51d21e77a63a77f2c13fc29c1d2041fd 0.5s done
+#10 exporting attestation manifest sha256:b120711c2c863964e8602ad8e283573db0b5dce815068171debbf9b7a211f7f0
+#10 exporting attestation manifest sha256:b120711c2c863964e8602ad8e283573db0b5dce815068171debbf9b7a211f7f0 0.2s done
+#10 exporting manifest list sha256:6c6efc19fb461cfbbac7c655a6edf645c71653ad15a83caf533ebd32bb238f46
+#10 exporting manifest list sha256:6c6efc19fb461cfbbac7c655a6edf645c71653ad15a83caf533ebd32bb238f46 0.1s done
+#10 naming to docker.io/library/secondlook-8900e4c176f9-checkout:latest 0.0s done
+#10 unpacking to docker.io/library/secondlook-8900e4c176f9-checkout:latest
+#10 unpacking to docker.io/library/secondlook-8900e4c176f9-checkout:latest 8.3s done
+#10 DONE 24.5s
+
+#11 resolving provenance for metadata file
+#11 DONE 4.2s
+ Image secondlook-8900e4c176f9-checkout Building 
+ Image secondlook-8900e4c176f9-checkout Built 
+ Container secondlook-8900e4c176f9-checkout-1 Creating 
+ Container secondlook-8900e4c176f9-checkout-1 Created 
+ Container secondlook-8900e4c176f9-checkout-1 Starting 
+ Container secondlook-8900e4c176f9-checkout-1 Started 
+
+2026-11-07T09:50:53.772+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'ready') (exit 0)
+
+2026-11-07T09:51:13.879+00:00 ('up', '-d', '--no-deps', '--force-recreate', 'worker') (exit 0)
+#1 [internal] load local bake definitions
+#1 reading from stdin 551B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile:
+#2 transferring dockerfile: 146B 0.0s done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 1.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B 0.0s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 33B 0.0s done
+#5 DONE 0.1s
+
+#6 [1/4] FROM docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54
+#6 resolve docker.io/library/python:3.12-slim@sha256:4840d514c583a4d3d8cad3940e68dee6f0f6f3635c12fcd0a3d74c21a5b93a54 0.2s done
+#6 DONE 0.2s
+
+#7 [2/4] WORKDIR /app
+#7 CACHED
+
+#8 [3/4] RUN pip install --no-cache-dir psycopg[binary]==3.2.10
+#8 CACHED
+
+#9 [4/4] COPY services.py .
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers 0.0s done
+#10 exporting manifest sha256:5a217a752da6ed6f1a7729b3f75359215161485262e923f98902bbe7d544ad1a 0.1s done
+#10 exporting config sha256:6471acf502aaa54de9db54fe4ffbea02c2aec505d9a6228749ed1a589601fd47
+#10 exporting config sha256:6471acf502aaa54de9db54fe4ffbea02c2aec505d9a6228749ed1a589601fd47 0.1s done
+#10 exporting attestation manifest sha256:363f28fb2bc7bbe1ac5a49fe7c9538923a2a5eeee9a25861b9de45921212630b
+#10 exporting attestation manifest sha256:363f28fb2bc7bbe1ac5a49fe7c9538923a2a5eeee9a25861b9de45921212630b 0.1s done
+#10 exporting manifest list sha256:252073dd6558b0837ed2468f51c0e4be58281802ae932ad38c453d83244bad37 0.1s done
+#10 naming to docker.io/library/secondlook-8900e4c176f9-worker:latest
+#10 naming to docker.io/library/secondlook-8900e4c176f9-worker:latest 0.0s done
+#10 unpacking to docker.io/library/secondlook-8900e4c176f9-worker:latest 0.1s done
+#10 DONE 0.8s
+
+#11 resolving provenance for metadata file
+#11 DONE 0.3s
+ Image secondlook-8900e4c176f9-worker Building 
+ Image secondlook-8900e4c176f9-worker Built 
+ Container secondlook-8900e4c176f9-worker-2 Creating 
+ Container secondlook-8900e4c176f9-worker-1 Creating 
+ Container secondlook-8900e4c176f9-worker-2 Created 
+ Container secondlook-8900e4c176f9-worker-1 Created 
+ Container secondlook-8900e4c176f9-worker-1 Starting 
+ Container secondlook-8900e4c176f9-worker-1 Started 
+ Container secondlook-8900e4c176f9-worker-2 Starting 
+ Container secondlook-8900e4c176f9-worker-2 Started 
+
+2026-11-07T09:51:18.350+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:51:20.806+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:51:23.990+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:51:26.681+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:51:32.064+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:51:33.987+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:51:38.783+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:51:43.037+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:51:49.197+00:00 ('logs', '--timestamps', '--no-color') (exit 0)
+db-1  | 2026-11-07T09:45:57.556649327Z The files belonging to this database system will be owned by user "postgres".
+db-1  | 2026-11-07T09:45:57.556803996Z This user must also own the server process.
+db-1  | 2026-11-07T09:45:57.556814400Z 
+db-1  | 2026-11-07T09:45:57.556820503Z The database cluster will be initialized with locale "en_US.utf8".
+db-1  | 2026-11-07T09:45:57.556932052Z The default database encoding has accordingly been set to "UTF8".
+db-1  | 2026-11-07T09:45:57.556952161Z The default text search configuration will be set to "english".
+db-1  | 2026-11-07T09:45:57.556959564Z 
+db-1  | 2026-11-07T09:45:57.556965167Z Data page checksums are disabled.
+db-1  | 2026-11-07T09:45:57.556971170Z 
+db-1  | 2026-11-07T09:45:57.556976272Z fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db-1  | 2026-11-07T09:45:57.579210197Z creating subdirectories ... ok
+db-1  | 2026-11-07T09:45:57.579234208Z selecting dynamic shared memory implementation ... posix
+db-1  | 2026-11-07T09:45:57.720026127Z selecting default max_connections ... 100
+db-1  | 2026-11-07T09:45:57.862687772Z selecting default shared_buffers ... 128MB
+db-1  | 2026-11-07T09:45:57.934117238Z selecting default time zone ... Etc/UTC
+db-1  | 2026-11-07T09:45:57.935706040Z creating configuration files ... ok
+db-1  | 2026-11-07T09:45:58.909521155Z running bootstrap script ... ok
+db-1  | 2026-11-07T09:46:01.910189156Z performing post-bootstrap initialization ... ok
+db-1  | 2026-11-07T09:46:19.231281666Z initdb: warning: enabling "trust" authentication for local connections
+db-1  | 2026-11-07T09:46:19.231319082Z initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db-1  | 2026-11-07T09:46:19.231289569Z syncing data to disk ... ok
+db-1  | 2026-11-07T09:46:19.231343893Z 
+db-1  | 2026-11-07T09:46:19.231349796Z 
+db-1  | 2026-11-07T09:46:19.231355699Z Success. You can now start the database server using:
+db-1  | 2026-11-07T09:46:19.231361601Z 
+db-1  | 2026-11-07T09:46:19.231367004Z     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db-1  | 2026-11-07T09:46:19.231373807Z 
+db-1  | 2026-11-07T09:46:19.539868836Z waiting for server to start....2026-11-07 09:46:19.539 UTC [148] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1  | 2026-11-07T09:46:19.627347123Z 2026-11-07 09:46:19.626 UTC [148] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1  | 2026-11-07T09:46:19.747464544Z 2026-11-07 09:46:19.747 UTC [151] LOG:  database system was shut down at 2026-11-07 09:46:01 UTC
+db-1  | 2026-11-07T09:46:19.826030189Z 2026-11-07 09:46:19.825 UTC [148] LOG:  database system is ready to accept connections
+db-1  | 2026-11-07T09:46:19.878998814Z  done
+db-1  | 2026-11-07T09:46:19.879037631Z server started
+db-1  | 2026-11-07T09:46:20.901452886Z CREATE DATABASE
+db-1  | 2026-11-07T09:46:20.903590731Z 
+db-1  | 2026-11-07T09:46:20.903621245Z 
+db-1  | 2026-11-07T09:46:20.903628548Z /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/roles.sql
+db-1  | 2026-11-07T09:46:21.416806197Z REVOKE
+db-1  | 2026-11-07T09:46:21.540028291Z CREATE ROLE
+db-1  | 2026-11-07T09:46:21.594706972Z CREATE ROLE
+db-1  | 2026-11-07T09:46:21.607477420Z GRANT
+db-1  | 2026-11-07T09:46:21.658447161Z CREATE TABLE
+db-1  | 2026-11-07T09:46:21.684227862Z INSERT 0 1
+db-1  | 2026-11-07T09:46:21.702538160Z GRANT
+db-1  | 2026-11-07T09:46:21.709215313Z 
+db-1  | 2026-11-07T09:46:21.709249628Z 
+db-1  | 2026-11-07T09:46:21.711865985Z waiting for server to shut down...2026-11-07 09:46:21.711 UTC [148] LOG:  received fast shutdown request
+db-1  | 2026-11-07T09:46:21.735166489Z .2026-11-07 09:46:21.734 UTC [148] LOG:  aborting any active transactions
+db-1  | 2026-11-07T09:46:21.738348297Z 2026-11-07 09:46:21.738 UTC [148] LOG:  background worker "logical replication launcher" (PID 154) exited with exit code 1
+db-1  | 2026-11-07T09:46:21.743365815Z 2026-11-07 09:46:21.742 UTC [149] LOG:  shutting down
+db-1  | 2026-11-07T09:46:21.922203705Z 2026-11-07 09:46:21.921 UTC [149] LOG:  checkpoint starting: shutdown immediate
+db-1  | 2026-11-07T09:46:32.934952283Z ..........2026-11-07 09:46:32.934 UTC [149] LOG:  checkpoint complete: wrote 938 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.641 s, sync=7.608 s, total=11.192 s; sync files=310, longest=2.856 s, average=0.025 s; distance=4286 kB, estimate=4286 kB; lsn=0/19223B8, redo lsn=0/19223B8
+db-1  | 2026-11-07T09:46:32.946304803Z 2026-11-07 09:46:32.946 UTC [148] LOG:  database system is shut down
+db-1  | 2026-11-07T09:46:32.970425569Z  done
+db-1  | 2026-11-07T09:46:32.970468488Z server stopped
+db-1  | 2026-11-07T09:46:32.973631487Z 
+db-1  | 2026-11-07T09:46:32.973687212Z PostgreSQL init process complete; ready for start up.
+db-1  | 2026-11-07T09:46:32.973699417Z 
+db-1  | 2026-11-07T09:46:33.106386793Z 2026-11-07 09:46:33.082 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1  | 2026-11-07T09:46:33.111095775Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db-1  | 2026-11-07T09:46:33.111132291Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db-1  | 2026-11-07T09:46:33.137179509Z 2026-11-07 09:46:33.126 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1  | 2026-11-07T09:46:33.168783285Z 2026-11-07 09:46:33.168 UTC [223] LOG:  database system was shut down at 2026-11-07 09:46:32 UTC
+db-1  | 2026-11-07T09:46:33.196285847Z 2026-11-07 09:46:33.195 UTC [1] LOG:  database system is ready to accept connections
+db-1  | 2026-11-07T09:51:33.051836909Z 2026-11-07 09:51:33.041 UTC [221] LOG:  checkpoint starting: time
+db-1  | 2026-11-07T09:51:37.585558531Z 2026-11-07 09:51:37.585 UTC [221] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.087 s, sync=0.186 s, total=4.551 s; sync files=14, longest=0.077 s, average=0.014 s; distance=191 kB, estimate=191 kB; lsn=0/1952388, redo lsn=0/1952350
+worker-2  | 2026-11-07T09:51:16.040558189Z {"kind": "worker_open", "connections": 1, "pool_max": 2, "at": "2026-11-07T09:51:16.040184+00:00"}
+worker-2  | 2026-11-07T09:51:16.100239483Z {"kind": "worker_open", "connections": 2, "pool_max": 2, "at": "2026-11-07T09:51:16.099956+00:00"}
+checkout-1  | 2026-11-07T09:51:17.439965282Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:17.430695+00:00"}
+checkout-1  | 2026-11-07T09:51:23.555100690Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:23.554805+00:00"}
+checkout-1  | 2026-11-07T09:51:31.641983585Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:31.641559+00:00"}
+checkout-1  | 2026-11-07T09:51:37.915052396Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:37.914642+00:00"}
+worker-1    | 2026-11-07T09:51:13.417771228Z {"kind": "worker_open", "connections": 1, "pool_max": 2, "at": "2026-11-07T09:51:13.417183+00:00"}
+worker-1    | 2026-11-07T09:51:13.473631047Z {"kind": "worker_open", "connections": 2, "pool_max": 2, "at": "2026-11-07T09:51:13.472959+00:00"}
+
+2026-11-07T09:53:12.492+00:00 ('up', '-d', '--no-deps', '--force-recreate', 'worker') (exit 0)
+ Container secondlook-8900e4c176f9-worker-4 Creating 
+ Container secondlook-8900e4c176f9-worker-2 Recreate 
+ Container secondlook-8900e4c176f9-worker-1 Recreate 
+ Container secondlook-8900e4c176f9-worker-3 Creating 
+ Container secondlook-8900e4c176f9-worker-4 Created 
+ Container secondlook-8900e4c176f9-worker-3 Created 
+ Container secondlook-8900e4c176f9-worker-2 Recreated 
+ Container secondlook-8900e4c176f9-worker-1 Recreated 
+ Container secondlook-8900e4c176f9-worker-3 Starting 
+ Container secondlook-8900e4c176f9-worker-3 Started 
+ Container secondlook-8900e4c176f9-worker-1 Starting 
+ Container secondlook-8900e4c176f9-worker-1 Started 
+ Container secondlook-8900e4c176f9-worker-4 Starting 
+ Container secondlook-8900e4c176f9-worker-4 Started 
+ Container secondlook-8900e4c176f9-worker-2 Starting 
+ Container secondlook-8900e4c176f9-worker-2 Started 
+
+2026-11-07T09:53:16.508+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute"}
+
+2026-11-07T09:53:18.404+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 17, "checkout" : 0, "total" : 18, "ordinary_roles" : 2}
+
+2026-11-07T09:53:21.603+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute"}
+
+2026-11-07T09:53:28.715+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 17, "checkout" : 0, "total" : 18, "ordinary_roles" : 2}
+
+2026-11-07T09:53:37.576+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute"}
+
+2026-11-07T09:53:46.800+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 17, "checkout" : 0, "total" : 18, "ordinary_roles" : 2}
+
+2026-11-07T09:54:00.073+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute"}
+
+2026-11-07T09:54:09.899+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 17, "checkout" : 0, "total" : 18, "ordinary_roles" : 2}
+
+2026-11-07T09:54:16.295+00:00 ('logs', '--timestamps', '--no-color') (exit 0)
+worker-3  | 2026-11-07T09:53:09.494982305Z {"kind": "worker_open", "connections": 1, "pool_max": 5, "at": "2026-11-07T09:53:09.492049+00:00"}
+worker-3  | 2026-11-07T09:53:09.567758028Z {"kind": "worker_open", "connections": 2, "pool_max": 5, "at": "2026-11-07T09:53:09.567159+00:00"}
+worker-3  | 2026-11-07T09:53:09.640578619Z {"kind": "worker_open", "connections": 3, "pool_max": 5, "at": "2026-11-07T09:53:09.640270+00:00"}
+worker-3  | 2026-11-07T09:53:09.792803744Z {"kind": "worker_open", "connections": 4, "pool_max": 5, "at": "2026-11-07T09:53:09.788347+00:00"}
+worker-3  | 2026-11-07T09:53:09.891873774Z {"kind": "worker_open", "connections": 5, "pool_max": 5, "at": "2026-11-07T09:53:09.891635+00:00"}
+db-1      | 2026-11-07T09:45:57.556649327Z The files belonging to this database system will be owned by user "postgres".
+db-1      | 2026-11-07T09:45:57.556803996Z This user must also own the server process.
+db-1      | 2026-11-07T09:45:57.556814400Z 
+db-1      | 2026-11-07T09:45:57.556820503Z The database cluster will be initialized with locale "en_US.utf8".
+db-1      | 2026-11-07T09:45:57.556932052Z The default database encoding has accordingly been set to "UTF8".
+db-1      | 2026-11-07T09:45:57.556952161Z The default text search configuration will be set to "english".
+db-1      | 2026-11-07T09:45:57.556959564Z 
+db-1      | 2026-11-07T09:45:57.556965167Z Data page checksums are disabled.
+db-1      | 2026-11-07T09:45:57.556971170Z 
+db-1      | 2026-11-07T09:45:57.556976272Z fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db-1      | 2026-11-07T09:45:57.579210197Z creating subdirectories ... ok
+db-1      | 2026-11-07T09:45:57.579234208Z selecting dynamic shared memory implementation ... posix
+db-1      | 2026-11-07T09:45:57.720026127Z selecting default max_connections ... 100
+db-1      | 2026-11-07T09:45:57.862687772Z selecting default shared_buffers ... 128MB
+db-1      | 2026-11-07T09:45:57.934117238Z selecting default time zone ... Etc/UTC
+db-1      | 2026-11-07T09:45:57.935706040Z creating configuration files ... ok
+db-1      | 2026-11-07T09:45:58.909521155Z running bootstrap script ... ok
+db-1      | 2026-11-07T09:46:01.910189156Z performing post-bootstrap initialization ... ok
+db-1      | 2026-11-07T09:46:19.231281666Z initdb: warning: enabling "trust" authentication for local connections
+db-1      | 2026-11-07T09:46:19.231319082Z initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db-1      | 2026-11-07T09:46:19.231289569Z syncing data to disk ... ok
+db-1      | 2026-11-07T09:46:19.231343893Z 
+db-1      | 2026-11-07T09:46:19.231349796Z 
+db-1      | 2026-11-07T09:46:19.231355699Z Success. You can now start the database server using:
+db-1      | 2026-11-07T09:46:19.231361601Z 
+db-1      | 2026-11-07T09:46:19.231367004Z     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db-1      | 2026-11-07T09:46:19.231373807Z 
+db-1      | 2026-11-07T09:46:19.539868836Z waiting for server to start....2026-11-07 09:46:19.539 UTC [148] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-07T09:46:19.627347123Z 2026-11-07 09:46:19.626 UTC [148] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1      | 2026-11-07T09:46:19.747464544Z 2026-11-07 09:46:19.747 UTC [151] LOG:  database system was shut down at 2026-11-07 09:46:01 UTC
+db-1      | 2026-11-07T09:46:19.826030189Z 2026-11-07 09:46:19.825 UTC [148] LOG:  database system is ready to accept connections
+db-1      | 2026-11-07T09:46:19.878998814Z  done
+db-1      | 2026-11-07T09:46:19.879037631Z server started
+db-1      | 2026-11-07T09:46:20.901452886Z CREATE DATABASE
+db-1      | 2026-11-07T09:46:20.903590731Z 
+db-1      | 2026-11-07T09:46:20.903621245Z 
+db-1      | 2026-11-07T09:46:20.903628548Z /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/roles.sql
+db-1      | 2026-11-07T09:46:21.416806197Z REVOKE
+db-1      | 2026-11-07T09:46:21.540028291Z CREATE ROLE
+db-1      | 2026-11-07T09:46:21.594706972Z CREATE ROLE
+db-1      | 2026-11-07T09:46:21.607477420Z GRANT
+db-1      | 2026-11-07T09:46:21.658447161Z CREATE TABLE
+db-1      | 2026-11-07T09:46:21.684227862Z INSERT 0 1
+db-1      | 2026-11-07T09:46:21.702538160Z GRANT
+db-1      | 2026-11-07T09:46:21.709215313Z 
+db-1      | 2026-11-07T09:46:21.709249628Z 
+db-1      | 2026-11-07T09:46:21.711865985Z waiting for server to shut down...2026-11-07 09:46:21.711 UTC [148] LOG:  received fast shutdown request
+db-1      | 2026-11-07T09:46:21.735166489Z .2026-11-07 09:46:21.734 UTC [148] LOG:  aborting any active transactions
+db-1      | 2026-11-07T09:46:21.738348297Z 2026-11-07 09:46:21.738 UTC [148] LOG:  background worker "logical replication launcher" (PID 154) exited with exit code 1
+db-1      | 2026-11-07T09:46:21.743365815Z 2026-11-07 09:46:21.742 UTC [149] LOG:  shutting down
+db-1      | 2026-11-07T09:46:21.922203705Z 2026-11-07 09:46:21.921 UTC [149] LOG:  checkpoint starting: shutdown immediate
+db-1      | 2026-11-07T09:46:32.934952283Z ..........2026-11-07 09:46:32.934 UTC [149] LOG:  checkpoint complete: wrote 938 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.641 s, sync=7.608 s, total=11.192 s; sync files=310, longest=2.856 s, average=0.025 s; distance=4286 kB, estimate=4286 kB; lsn=0/19223B8, redo lsn=0/19223B8
+db-1      | 2026-11-07T09:46:32.946304803Z 2026-11-07 09:46:32.946 UTC [148] LOG:  database system is shut down
+db-1      | 2026-11-07T09:46:32.970425569Z  done
+db-1      | 2026-11-07T09:46:32.970468488Z server stopped
+db-1      | 2026-11-07T09:46:32.973631487Z 
+db-1      | 2026-11-07T09:46:32.973687212Z PostgreSQL init process complete; ready for start up.
+db-1      | 2026-11-07T09:46:32.973699417Z 
+db-1      | 2026-11-07T09:46:33.106386793Z 2026-11-07 09:46:33.082 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-07T09:46:33.111095775Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db-1      | 2026-11-07T09:46:33.111132291Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db-1      | 2026-11-07T09:46:33.137179509Z 2026-11-07 09:46:33.126 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1      | 2026-11-07T09:46:33.168783285Z 2026-11-07 09:46:33.168 UTC [223] LOG:  database system was shut down at 2026-11-07 09:46:32 UTC
+db-1      | 2026-11-07T09:46:33.196285847Z 2026-11-07 09:46:33.195 UTC [1] LOG:  database system is ready to accept connections
+db-1      | 2026-11-07T09:51:33.051836909Z 2026-11-07 09:51:33.041 UTC [221] LOG:  checkpoint starting: time
+db-1      | 2026-11-07T09:51:37.585558531Z 2026-11-07 09:51:37.585 UTC [221] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.087 s, sync=0.186 s, total=4.551 s; sync files=14, longest=0.077 s, average=0.014 s; distance=191 kB, estimate=191 kB; lsn=0/1952388, redo lsn=0/1952350
+db-1      | 2026-11-07T09:53:14.978735878Z 2026-11-07 09:53:14.928 UTC [1937] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:15.559388848Z 2026-11-07 09:53:15.559 UTC [1945] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:15.958198384Z 2026-11-07 09:53:15.957 UTC [1946] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:17.007799801Z 2026-11-07 09:53:17.005 UTC [1949] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:18.054721526Z 2026-11-07 09:53:18.052 UTC [1963] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:19.103291715Z 2026-11-07 09:53:19.099 UTC [1970] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:20.177613377Z 2026-11-07 09:53:20.174 UTC [1974] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+worker-2  | 2026-11-07T09:53:14.454759620Z {"kind": "worker_open", "connections": 1, "pool_max": 5, "at": "2026-11-07T09:53:14.454362+00:00"}
+worker-2  | 2026-11-07T09:53:14.773857878Z {"kind": "worker_open", "connections": 2, "pool_max": 5, "at": "2026-11-07T09:53:14.518159+00:00"}
+worker-2  | 2026-11-07T09:53:14.978712368Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:14.929551+00:00"}
+worker-2  | 2026-11-07T09:53:15.959247133Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:15.958903+00:00"}
+worker-2  | 2026-11-07T09:53:17.008184058Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:17.007863+00:00"}
+worker-2  | 2026-11-07T09:53:18.054872906Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:18.053722+00:00"}
+worker-2  | 2026-11-07T09:53:19.107148909Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:19.101026+00:00"}
+worker-2  | 2026-11-07T09:53:20.193385664Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:20.185657+00:00"}
+worker-2  | 2026-11-07T09:53:21.261053901Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:21.260735+00:00"}
+worker-2  | 2026-11-07T09:53:22.345665745Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:22.338775+00:00"}
+worker-2  | 2026-11-07T09:53:23.412184711Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:23.406914+00:00"}
+worker-2  | 2026-11-07T09:53:24.652339377Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:24.644512+00:00"}
+worker-2  | 2026-11-07T09:53:25.981682090Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:25.979671+00:00"}
+worker-2  | 2026-11-07T09:53:27.002278985Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:27.002027+00:00"}
+worker-2  | 2026-11-07T09:53:28.135245065Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:28.052512+00:00"}
+worker-2  | 2026-11-07T09:53:29.109943183Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:29.109419+00:00"}
+worker-2  | 2026-11-07T09:53:30.203234326Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:30.200755+00:00"}
+worker-2  | 2026-11-07T09:53:31.249143563Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:31.248125+00:00"}
+worker-2  | 2026-11-07T09:53:32.285816852Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:32.284132+00:00"}
+worker-2  | 2026-11-07T09:53:34.665593014Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:34.654002+00:00"}
+worker-2  | 2026-11-07T09:53:37.089254887Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:37.088943+00:00"}
+worker-2  | 2026-11-07T09:53:38.521752493Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:38.521408+00:00"}
+worker-2  | 2026-11-07T09:53:40.285202377Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:40.283188+00:00"}
+worker-2  | 2026-11-07T09:53:42.672502038Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:42.668960+00:00"}
+worker-2  | 2026-11-07T09:53:43.698058595Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:43.697543+00:00"}
+worker-2  | 2026-11-07T09:53:44.746327280Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:44.745832+00:00"}
+worker-2  | 2026-11-07T09:53:45.785191493Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:45.784554+00:00"}
+worker-2  | 2026-11-07T09:53:47.277028310Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:47.276639+00:00"}
+worker-2  | 2026-11-07T09:53:49.180974507Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:49.180674+00:00"}
+checkout-1  | 2026-11-07T09:51:17.439965282Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:17.430695+00:00"}
+checkout-1  | 2026-11-07T09:51:23.555100690Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:23.554805+00:00"}
+checkout-1  | 2026-11-07T09:51:31.641983585Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:31.641559+00:00"}
+checkout-1  | 2026-11-07T09:51:37.915052396Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:37.914642+00:00"}
+checkout-1  | 2026-11-07T09:53:16.027298291Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:15.561130+00:00"}
+checkout-1  | 2026-11-07T09:53:21.117832805Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:21.117428+00:00"}
+checkout-1  | 2026-11-07T09:53:36.415680395Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:36.393102+00:00"}
+checkout-1  | 2026-11-07T09:53:58.966301670Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:58.966039+00:00"}
+worker-2    | 2026-11-07T09:53:50.535987439Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:50.535732+00:00"}
+worker-2    | 2026-11-07T09:53:52.494139031Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:52.493687+00:00"}
+worker-2    | 2026-11-07T09:53:53.521184340Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:53.520837+00:00"}
+worker-2    | 2026-11-07T09:53:56.518560264Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:56.514839+00:00"}
+worker-2    | 2026-11-07T09:53:57.568333405Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:57.567556+00:00"}
+worker-2    | 2026-11-07T09:53:59.059541276Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:59.059403+00:00"}
+worker-2    | 2026-11-07T09:54:00.093197797Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:00.092803+00:00"}
+worker-2    | 2026-11-07T09:54:01.125636556Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:01.125099+00:00"}
+worker-2    | 2026-11-07T09:54:02.165727920Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:02.165323+00:00"}
+worker-2    | 2026-11-07T09:54:03.380786627Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:03.380499+00:00"}
+worker-2    | 2026-11-07T09:54:05.955629476Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:05.955063+00:00"}
+worker-2    | 2026-11-07T09:54:07.696660315Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:07.696377+00:00"}
+worker-2    | 2026-11-07T09:54:08.794491260Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:08.794153+00:00"}
+worker-2    | 2026-11-07T09:54:09.813702010Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:09.813356+00:00"}
+worker-2    | 2026-11-07T09:54:10.842205193Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:10.841720+00:00"}
+worker-2    | 2026-11-07T09:54:11.898255952Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:11.897832+00:00"}
+worker-2    | 2026-11-07T09:54:12.928011012Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:12.927689+00:00"}
+worker-2    | 2026-11-07T09:54:13.967783830Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:13.967232+00:00"}
+worker-2    | 2026-11-07T09:54:15.297521596Z {"kind": "worker_rejected", "connections": 2, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:54:15.293961+00:00"}
+worker-1    | 2026-11-07T09:53:09.924839859Z {"kind": "worker_open", "connections": 1, "pool_max": 5, "at": "2026-11-07T09:53:09.924348+00:00"}
+worker-1    | 2026-11-07T09:53:10.002762786Z {"kind": "worker_open", "connections": 2, "pool_max": 5, "at": "2026-11-07T09:53:10.001801+00:00"}
+worker-1    | 2026-11-07T09:53:10.053597893Z {"kind": "worker_open", "connections": 3, "pool_max": 5, "at": "2026-11-07T09:53:10.052919+00:00"}
+worker-1    | 2026-11-07T09:53:10.109701113Z {"kind": "worker_open", "connections": 4, "pool_max": 5, "at": "2026-11-07T09:53:10.109328+00:00"}
+worker-1    | 2026-11-07T09:53:10.176292498Z {"kind": "worker_open", "connections": 5, "pool_max": 5, "at": "2026-11-07T09:53:10.173863+00:00"}
+db-1        | 2026-11-07T09:53:21.116753019Z 2026-11-07 09:53:21.116 UTC [1982] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:21.251058695Z 2026-11-07 09:53:21.250 UTC [1984] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:22.318184087Z 2026-11-07 09:53:22.317 UTC [1985] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:23.415552941Z 2026-11-07 09:53:23.399 UTC [1994] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:24.623046146Z 2026-11-07 09:53:24.622 UTC [1996] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:25.978805269Z 2026-11-07 09:53:25.978 UTC [2002] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:27.001365398Z 2026-11-07 09:53:27.001 UTC [2011] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:28.135213551Z 2026-11-07 09:53:28.050 UTC [2013] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:29.108301686Z 2026-11-07 09:53:29.108 UTC [2022] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:30.206116549Z 2026-11-07 09:53:30.199 UTC [2023] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:31.247158020Z 2026-11-07 09:53:31.246 UTC [2032] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:32.285687143Z 2026-11-07 09:53:32.282 UTC [2041] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:34.651482073Z 2026-11-07 09:53:34.651 UTC [2042] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:36.415676894Z 2026-11-07 09:53:36.392 UTC [2044] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:37.108079942Z 2026-11-07 09:53:37.086 UTC [2045] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:38.521032345Z 2026-11-07 09:53:38.520 UTC [2052] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:40.285237190Z 2026-11-07 09:53:40.282 UTC [2055] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:42.669171973Z 2026-11-07 09:53:42.668 UTC [2056] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:43.696988788Z 2026-11-07 09:53:43.696 UTC [2057] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:44.740621312Z 2026-11-07 09:53:44.739 UTC [2072] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:45.783211140Z 2026-11-07 09:53:45.782 UTC [2074] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:47.275376383Z 2026-11-07 09:53:47.275 UTC [2080] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:49.180234426Z 2026-11-07 09:53:49.179 UTC [2083] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:50.530886001Z 2026-11-07 09:53:50.530 UTC [2084] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:52.490843679Z 2026-11-07 09:53:52.490 UTC [2092] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:53.519020618Z 2026-11-07 09:53:53.518 UTC [2094] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:56.514391281Z 2026-11-07 09:53:56.514 UTC [2097] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:57.567938955Z 2026-11-07 09:53:57.566 UTC [2104] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:58.965693339Z 2026-11-07 09:53:58.965 UTC [2105] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:53:59.061825544Z 2026-11-07 09:53:59.058 UTC [2106] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:00.091977134Z 2026-11-07 09:54:00.091 UTC [2109] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:01.124742716Z 2026-11-07 09:54:01.124 UTC [2116] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:02.164484148Z 2026-11-07 09:54:02.164 UTC [2119] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:03.380330453Z 2026-11-07 09:54:03.380 UTC [2126] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:05.955568253Z 2026-11-07 09:54:05.954 UTC [2132] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:07.696209143Z 2026-11-07 09:54:07.695 UTC [2136] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:08.817566934Z 2026-11-07 09:54:08.792 UTC [2137] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:09.810563717Z 2026-11-07 09:54:09.810 UTC [2144] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:10.841006038Z 2026-11-07 09:54:10.840 UTC [2145] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:11.895692077Z 2026-11-07 09:54:11.894 UTC [2148] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:12.926833264Z 2026-11-07 09:54:12.926 UTC [2156] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:13.967030444Z 2026-11-07 09:54:13.966 UTC [2159] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1        | 2026-11-07T09:54:15.293226462Z 2026-11-07 09:54:15.292 UTC [2160] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+worker-4    | 2026-11-07T09:53:13.214848698Z {"kind": "worker_open", "connections": 1, "pool_max": 5, "at": "2026-11-07T09:53:13.205391+00:00"}
+worker-4    | 2026-11-07T09:53:13.275821920Z {"kind": "worker_open", "connections": 2, "pool_max": 5, "at": "2026-11-07T09:53:13.260028+00:00"}
+worker-4    | 2026-11-07T09:53:13.329255136Z {"kind": "worker_open", "connections": 3, "pool_max": 5, "at": "2026-11-07T09:53:13.328937+00:00"}
+worker-4    | 2026-11-07T09:53:13.428906901Z {"kind": "worker_open", "connections": 4, "pool_max": 5, "at": "2026-11-07T09:53:13.425611+00:00"}
+worker-4    | 2026-11-07T09:53:13.515980318Z {"kind": "worker_open", "connections": 5, "pool_max": 5, "at": "2026-11-07T09:53:13.513028+00:00"}
+
+2026-11-07T09:55:21.560+00:00 ('up', '-d', '--no-deps', '--force-recreate', 'worker') (exit 0)
+ Container secondlook-8900e4c176f9-worker-1 Recreate 
+ Container secondlook-8900e4c176f9-worker-2 Recreate 
+ Container secondlook-8900e4c176f9-worker-3 Stopping 
+ Container secondlook-8900e4c176f9-worker-4 Stopping 
+ Container secondlook-8900e4c176f9-worker-3 Stopped 
+ Container secondlook-8900e4c176f9-worker-3 Removing 
+ Container secondlook-8900e4c176f9-worker-4 Stopped 
+ Container secondlook-8900e4c176f9-worker-4 Removing 
+ Container secondlook-8900e4c176f9-worker-3 Removed 
+ Container secondlook-8900e4c176f9-worker-4 Removed 
+ Container secondlook-8900e4c176f9-worker-2 Recreated 
+ Container secondlook-8900e4c176f9-worker-1 Recreated 
+ Container secondlook-8900e4c176f9-worker-2 Starting 
+ Container secondlook-8900e4c176f9-worker-2 Started 
+ Container secondlook-8900e4c176f9-worker-1 Starting 
+ Container secondlook-8900e4c176f9-worker-1 Started 
+
+2026-11-07T09:55:26.432+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:55:30.666+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:55:35.253+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:55:37.233+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:55:46.475+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:55:47.406+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:55:49.837+00:00 ('exec', '-T', 'checkout', 'python', 'services.py', 'probe') (exit 0)
+{"status": 200, "detail": "PostgreSQL returned row 1"}
+
+2026-11-07T09:55:50.939+00:00 ('exec', '-T', 'db', 'psql', '-XAt', '-v', 'ON_ERROR_STOP=1', '-U', 'postgres', '-d', 'checkout_lab', '-c', "\nSELECT json_build_object(\n  'max', current_setting('max_connections')::int,\n  'reserved', current_setting('superuser_reserved_connections')::int,\n  'worker', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'worker' AND backend_type = 'client backend'),\n  'checkout', (SELECT count(*) FROM pg_stat_activity WHERE usename = 'checkout' AND backend_type = 'client backend'),\n  'total', (SELECT count(*) FROM pg_stat_activity WHERE backend_type = 'client backend'),\n  'ordinary_roles', (SELECT count(*) FROM pg_roles WHERE rolname IN ('checkout', 'worker') AND NOT rolsuper)\n);\n") (exit 0)
+{"max" : 20, "reserved" : 3, "worker" : 4, "checkout" : 0, "total" : 5, "ordinary_roles" : 2}
+
+2026-11-07T09:55:53.927+00:00 ('logs', '--timestamps', '--no-color') (exit 0)
+worker-1  | 2026-11-07T09:55:23.749923629Z {"kind": "worker_open", "connections": 1, "pool_max": 2, "at": "2026-11-07T09:55:23.748991+00:00"}
+worker-1  | 2026-11-07T09:55:24.017348178Z {"kind": "worker_open", "connections": 2, "pool_max": 2, "at": "2026-11-07T09:55:24.016876+00:00"}
+worker-2  | 2026-11-07T09:55:16.376598596Z {"kind": "worker_open", "connections": 1, "pool_max": 2, "at": "2026-11-07T09:55:16.376253+00:00"}
+worker-2  | 2026-11-07T09:55:16.461258207Z {"kind": "worker_open", "connections": 2, "pool_max": 2, "at": "2026-11-07T09:55:16.460033+00:00"}
+db-1      | 2026-11-07T09:45:57.556649327Z The files belonging to this database system will be owned by user "postgres".
+db-1      | 2026-11-07T09:45:57.556803996Z This user must also own the server process.
+db-1      | 2026-11-07T09:45:57.556814400Z 
+db-1      | 2026-11-07T09:45:57.556820503Z The database cluster will be initialized with locale "en_US.utf8".
+db-1      | 2026-11-07T09:45:57.556932052Z The default database encoding has accordingly been set to "UTF8".
+db-1      | 2026-11-07T09:45:57.556952161Z The default text search configuration will be set to "english".
+db-1      | 2026-11-07T09:45:57.556959564Z 
+db-1      | 2026-11-07T09:45:57.556965167Z Data page checksums are disabled.
+db-1      | 2026-11-07T09:45:57.556971170Z 
+db-1      | 2026-11-07T09:45:57.556976272Z fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db-1      | 2026-11-07T09:45:57.579210197Z creating subdirectories ... ok
+db-1      | 2026-11-07T09:45:57.579234208Z selecting dynamic shared memory implementation ... posix
+db-1      | 2026-11-07T09:45:57.720026127Z selecting default max_connections ... 100
+db-1      | 2026-11-07T09:45:57.862687772Z selecting default shared_buffers ... 128MB
+db-1      | 2026-11-07T09:45:57.934117238Z selecting default time zone ... Etc/UTC
+db-1      | 2026-11-07T09:45:57.935706040Z creating configuration files ... ok
+db-1      | 2026-11-07T09:45:58.909521155Z running bootstrap script ... ok
+db-1      | 2026-11-07T09:46:01.910189156Z performing post-bootstrap initialization ... ok
+db-1      | 2026-11-07T09:46:19.231281666Z initdb: warning: enabling "trust" authentication for local connections
+db-1      | 2026-11-07T09:46:19.231319082Z initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db-1      | 2026-11-07T09:46:19.231289569Z syncing data to disk ... ok
+db-1      | 2026-11-07T09:46:19.231343893Z 
+db-1      | 2026-11-07T09:46:19.231349796Z 
+db-1      | 2026-11-07T09:46:19.231355699Z Success. You can now start the database server using:
+db-1      | 2026-11-07T09:46:19.231361601Z 
+db-1      | 2026-11-07T09:46:19.231367004Z     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db-1      | 2026-11-07T09:46:19.231373807Z 
+db-1      | 2026-11-07T09:46:19.539868836Z waiting for server to start....2026-11-07 09:46:19.539 UTC [148] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-07T09:46:19.627347123Z 2026-11-07 09:46:19.626 UTC [148] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1      | 2026-11-07T09:46:19.747464544Z 2026-11-07 09:46:19.747 UTC [151] LOG:  database system was shut down at 2026-11-07 09:46:01 UTC
+db-1      | 2026-11-07T09:46:19.826030189Z 2026-11-07 09:46:19.825 UTC [148] LOG:  database system is ready to accept connections
+db-1      | 2026-11-07T09:46:19.878998814Z  done
+db-1      | 2026-11-07T09:46:19.879037631Z server started
+db-1      | 2026-11-07T09:46:20.901452886Z CREATE DATABASE
+db-1      | 2026-11-07T09:46:20.903590731Z 
+db-1      | 2026-11-07T09:46:20.903621245Z 
+db-1      | 2026-11-07T09:46:20.903628548Z /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/roles.sql
+db-1      | 2026-11-07T09:46:21.416806197Z REVOKE
+db-1      | 2026-11-07T09:46:21.540028291Z CREATE ROLE
+db-1      | 2026-11-07T09:46:21.594706972Z CREATE ROLE
+db-1      | 2026-11-07T09:46:21.607477420Z GRANT
+db-1      | 2026-11-07T09:46:21.658447161Z CREATE TABLE
+db-1      | 2026-11-07T09:46:21.684227862Z INSERT 0 1
+db-1      | 2026-11-07T09:46:21.702538160Z GRANT
+db-1      | 2026-11-07T09:46:21.709215313Z 
+db-1      | 2026-11-07T09:46:21.709249628Z 
+db-1      | 2026-11-07T09:46:21.711865985Z waiting for server to shut down...2026-11-07 09:46:21.711 UTC [148] LOG:  received fast shutdown request
+db-1      | 2026-11-07T09:46:21.735166489Z .2026-11-07 09:46:21.734 UTC [148] LOG:  aborting any active transactions
+db-1      | 2026-11-07T09:46:21.738348297Z 2026-11-07 09:46:21.738 UTC [148] LOG:  background worker "logical replication launcher" (PID 154) exited with exit code 1
+db-1      | 2026-11-07T09:46:21.743365815Z 2026-11-07 09:46:21.742 UTC [149] LOG:  shutting down
+db-1      | 2026-11-07T09:46:21.922203705Z 2026-11-07 09:46:21.921 UTC [149] LOG:  checkpoint starting: shutdown immediate
+db-1      | 2026-11-07T09:46:32.934952283Z ..........2026-11-07 09:46:32.934 UTC [149] LOG:  checkpoint complete: wrote 938 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.641 s, sync=7.608 s, total=11.192 s; sync files=310, longest=2.856 s, average=0.025 s; distance=4286 kB, estimate=4286 kB; lsn=0/19223B8, redo lsn=0/19223B8
+db-1      | 2026-11-07T09:46:32.946304803Z 2026-11-07 09:46:32.946 UTC [148] LOG:  database system is shut down
+db-1      | 2026-11-07T09:46:32.970425569Z  done
+db-1      | 2026-11-07T09:46:32.970468488Z server stopped
+db-1      | 2026-11-07T09:46:32.973631487Z 
+db-1      | 2026-11-07T09:46:32.973687212Z PostgreSQL init process complete; ready for start up.
+db-1      | 2026-11-07T09:46:32.973699417Z 
+db-1      | 2026-11-07T09:46:33.106386793Z 2026-11-07 09:46:33.082 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db-1      | 2026-11-07T09:46:33.111095775Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db-1      | 2026-11-07T09:46:33.111132291Z 2026-11-07 09:46:33.088 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db-1      | 2026-11-07T09:46:33.137179509Z 2026-11-07 09:46:33.126 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db-1      | 2026-11-07T09:46:33.168783285Z 2026-11-07 09:46:33.168 UTC [223] LOG:  database system was shut down at 2026-11-07 09:46:32 UTC
+db-1      | 2026-11-07T09:46:33.196285847Z 2026-11-07 09:46:33.195 UTC [1] LOG:  database system is ready to accept connections
+db-1      | 2026-11-07T09:51:33.051836909Z 2026-11-07 09:51:33.041 UTC [221] LOG:  checkpoint starting: time
+db-1      | 2026-11-07T09:51:37.585558531Z 2026-11-07 09:51:37.585 UTC [221] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.087 s, sync=0.186 s, total=4.551 s; sync files=14, longest=0.077 s, average=0.014 s; distance=191 kB, estimate=191 kB; lsn=0/1952388, redo lsn=0/1952350
+db-1      | 2026-11-07T09:53:14.978735878Z 2026-11-07 09:53:14.928 UTC [1937] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:15.559388848Z 2026-11-07 09:53:15.559 UTC [1945] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:15.958198384Z 2026-11-07 09:53:15.957 UTC [1946] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:17.007799801Z 2026-11-07 09:53:17.005 UTC [1949] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:18.054721526Z 2026-11-07 09:53:18.052 UTC [1963] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:19.103291715Z 2026-11-07 09:53:19.099 UTC [1970] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:20.177613377Z 2026-11-07 09:53:20.174 UTC [1974] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:21.116753019Z 2026-11-07 09:53:21.116 UTC [1982] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:21.251058695Z 2026-11-07 09:53:21.250 UTC [1984] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:22.318184087Z 2026-11-07 09:53:22.317 UTC [1985] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:23.415552941Z 2026-11-07 09:53:23.399 UTC [1994] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:24.623046146Z 2026-11-07 09:53:24.622 UTC [1996] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:25.978805269Z 2026-11-07 09:53:25.978 UTC [2002] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:27.001365398Z 2026-11-07 09:53:27.001 UTC [2011] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:28.135213551Z 2026-11-07 09:53:28.050 UTC [2013] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:29.108301686Z 2026-11-07 09:53:29.108 UTC [2022] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:30.206116549Z 2026-11-07 09:53:30.199 UTC [2023] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:31.247158020Z 2026-11-07 09:53:31.246 UTC [2032] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:32.285687143Z 2026-11-07 09:53:32.282 UTC [2041] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:34.651482073Z 2026-11-07 09:53:34.651 UTC [2042] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:36.415676894Z 2026-11-07 09:53:36.392 UTC [2044] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:37.108079942Z 2026-11-07 09:53:37.086 UTC [2045] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:38.521032345Z 2026-11-07 09:53:38.520 UTC [2052] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:40.285237190Z 2026-11-07 09:53:40.282 UTC [2055] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:42.669171973Z 2026-11-07 09:53:42.668 UTC [2056] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:43.696988788Z 2026-11-07 09:53:43.696 UTC [2057] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:44.740621312Z 2026-11-07 09:53:44.739 UTC [2072] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:45.783211140Z 2026-11-07 09:53:45.782 UTC [2074] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:47.275376383Z 2026-11-07 09:53:47.275 UTC [2080] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:49.180234426Z 2026-11-07 09:53:49.179 UTC [2083] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:50.530886001Z 2026-11-07 09:53:50.530 UTC [2084] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:52.490843679Z 2026-11-07 09:53:52.490 UTC [2092] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:53.519020618Z 2026-11-07 09:53:53.518 UTC [2094] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:56.514391281Z 2026-11-07 09:53:56.514 UTC [2097] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:57.567938955Z 2026-11-07 09:53:57.566 UTC [2104] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:58.965693339Z 2026-11-07 09:53:58.965 UTC [2105] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:53:59.061825544Z 2026-11-07 09:53:59.058 UTC [2106] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:00.091977134Z 2026-11-07 09:54:00.091 UTC [2109] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:01.124742716Z 2026-11-07 09:54:01.124 UTC [2116] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:02.164484148Z 2026-11-07 09:54:02.164 UTC [2119] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:03.380330453Z 2026-11-07 09:54:03.380 UTC [2126] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:05.955568253Z 2026-11-07 09:54:05.954 UTC [2132] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:07.696209143Z 2026-11-07 09:54:07.695 UTC [2136] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:08.817566934Z 2026-11-07 09:54:08.792 UTC [2137] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:09.810563717Z 2026-11-07 09:54:09.810 UTC [2144] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:10.841006038Z 2026-11-07 09:54:10.840 UTC [2145] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:11.895692077Z 2026-11-07 09:54:11.894 UTC [2148] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:12.926833264Z 2026-11-07 09:54:12.926 UTC [2156] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:13.967030444Z 2026-11-07 09:54:13.966 UTC [2159] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:15.293226462Z 2026-11-07 09:54:15.292 UTC [2160] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:16.331584580Z 2026-11-07 09:54:16.331 UTC [2169] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:17.363537460Z 2026-11-07 09:54:17.359 UTC [2170] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:18.395036269Z 2026-11-07 09:54:18.394 UTC [2179] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:19.407857871Z 2026-11-07 09:54:19.407 UTC [2180] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:20.747204893Z 2026-11-07 09:54:20.746 UTC [2181] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:21.797586284Z 2026-11-07 09:54:21.794 UTC [2188] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:22.827628938Z 2026-11-07 09:54:22.826 UTC [2189] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:23.867499531Z 2026-11-07 09:54:23.867 UTC [2192] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:25.204590471Z 2026-11-07 09:54:25.204 UTC [2200] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:26.240769849Z 2026-11-07 09:54:26.240 UTC [2203] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:27.287169403Z 2026-11-07 09:54:27.282 UTC [2204] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:28.498154760Z 2026-11-07 09:54:28.497 UTC [2213] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:29.627766365Z 2026-11-07 09:54:29.626 UTC [2218] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:30.661245919Z 2026-11-07 09:54:30.660 UTC [2223] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:31.683039343Z 2026-11-07 09:54:31.682 UTC [2224] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:32.697609328Z 2026-11-07 09:54:32.697 UTC [2231] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:33.712645764Z 2026-11-07 09:54:33.712 UTC [2233] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:39.179003496Z 2026-11-07 09:54:34.727 UTC [2236] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:39.179954348Z 2026-11-07 09:54:35.887 UTC [2243] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:39.179959950Z 2026-11-07 09:54:36.888 UTC [2244] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:39.831053636Z 2026-11-07 09:54:39.830 UTC [2247] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+db-1      | 2026-11-07T09:54:41.537708458Z 2026-11-07 09:54:41.537 UTC [2248] FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute
+checkout-1  | 2026-11-07T09:51:17.439965282Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:17.430695+00:00"}
+checkout-1  | 2026-11-07T09:51:23.555100690Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:23.554805+00:00"}
+checkout-1  | 2026-11-07T09:51:31.641983585Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:31.641559+00:00"}
+checkout-1  | 2026-11-07T09:51:37.915052396Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:51:37.914642+00:00"}
+checkout-1  | 2026-11-07T09:53:16.027298291Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:15.561130+00:00"}
+checkout-1  | 2026-11-07T09:53:21.117832805Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:21.117428+00:00"}
+checkout-1  | 2026-11-07T09:53:36.415680395Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:36.393102+00:00"}
+checkout-1  | 2026-11-07T09:53:58.966301670Z {"kind": "checkout", "status": 503, "detail": "connection failed: connection to server at \"172.18.0.2\", port 5432 failed: FATAL:  remaining connection slots are reserved for roles with the SUPERUSER attribute", "at": "2026-11-07T09:53:58.966039+00:00"}
+checkout-1  | 2026-11-07T09:55:25.950878538Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:55:25.944729+00:00"}
+checkout-1  | 2026-11-07T09:55:34.821844292Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:55:34.821305+00:00"}
+checkout-1  | 2026-11-07T09:55:46.097842058Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:55:46.097438+00:00"}
+checkout-1  | 2026-11-07T09:55:50.184848820Z {"kind": "checkout", "status": 200, "detail": "PostgreSQL returned row 1", "at": "2026-11-07T09:55:49.447283+00:00"}
+
+2026-11-07T09:57:07.683+00:00 ('down', '--volumes') (exit 0)
+ Container secondlook-8900e4c176f9-worker-1 Stopping 
+ Container secondlook-8900e4c176f9-worker-2 Stopping 
+ Container secondlook-8900e4c176f9-db-1 Stopping 
+ Container secondlook-8900e4c176f9-checkout-1 Stopping 
+ Container secondlook-8900e4c176f9-worker-1 Stopped 
+ Container secondlook-8900e4c176f9-worker-1 Removing 
+ Container secondlook-8900e4c176f9-db-1 Stopped 
+ Container secondlook-8900e4c176f9-db-1 Removing 
+ Container secondlook-8900e4c176f9-worker-1 Removed 
+ Container secondlook-8900e4c176f9-checkout-1 Stopped 
+ Container secondlook-8900e4c176f9-checkout-1 Removing 
+ Container secondlook-8900e4c176f9-worker-2 Stopped 
+ Container secondlook-8900e4c176f9-worker-2 Removing 
+ Container secondlook-8900e4c176f9-checkout-1 Removed 
+ Container secondlook-8900e4c176f9-worker-2 Removed 
+ Container secondlook-8900e4c176f9-db-1 Removed 
+ Network secondlook-8900e4c176f9_default Removing 
+ Network secondlook-8900e4c176f9_default Removed 
